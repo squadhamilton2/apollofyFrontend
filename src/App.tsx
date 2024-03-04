@@ -1,11 +1,13 @@
 import './App.css'
 
+import { HomeNotLogged } from './pages/HomeNotLogged/HomeNotLogged'
+
 function App() {
   
 
   return (
-    <div>
-      
+    <div className='App'>
+      <HomeNotLogged />
     </div>
   )
 }
