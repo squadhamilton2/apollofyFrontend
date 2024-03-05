@@ -2,28 +2,19 @@
   "playlists": [
     {
       "id": 1,
-      "name": "Road trip! All the masters I need!",
+      "name": "Road trip!",
       "isFollowed": true,
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644625060/tracks-thumbnails-dev/car_yx6ld1.jpg",
+      "thumbnail": "",
       "description": "Get your mic on with this beats. You are going to sing all the way down",
       "publicAccessible": true,
       "primaryColor": "#fbdc00"
     },
     {
       "id": 2,
-      "name": "Motorcycle Mama!",
+      "name": "Work",
       "isFollowed": true,
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644625058/tracks-thumbnails-dev/driving_g56eyw.jpg",
-      "description": "Take it easy on the wheels with this hits",
-      "publicAccessible": true,
-      "primaryColor": "#fbdc00"
-    },
-    {
-      "id": 3,
-      "name": "Chillout with the beats",
-      "isFollowed": false,
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644625056/tracks-thumbnails-dev/relax_coqdlx.jpg",
-      "description": "Stressed? Don´t worry the final project will soon be over. Relax in the meantime with this hits.",
+      "thumbnail": "",
+      "description": "Get productive!",
       "publicAccessible": true,
       "primaryColor": "#fbdc00"
     }
@@ -31,182 +22,164 @@
   "tracks": [
     {
       "id": 1,
-      "name": "Better of alone",
-      "artist": "RXBYN",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644583924/tracks-dev/Rxbyn_-_better_off_alone_fvhwp8.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644583757/tracks-thumbnails-dev/better_off_alone_gfmcby.jpg",
-      "genre": "piano",
-      "liked": false
+      "name": "Lo que hoy quieras",
+      "artist": "Koino yokan",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709625897/Koino%20Yokan%20-%20Lo%20que%20hoy%20quieras.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626314/Koino%20Yokan%20-%20Lo%20que%20hoy%20quieras%20-%20Album.jpg",
+      "genre": "pop",
+      "liked": true
     },
     {
       "id": 2,
-      "name": "Alone",
-      "artist": "Color Out",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644583929/tracks-dev/Color_Out_-_Alone_aw3gmk.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644583757/tracks-thumbnails-dev/alone_rfib7a.jpg",
-      "genre": "poprock",
+      "name": "No me quieras mal",
+      "artist": "Muerdo Ft Green Valley",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709626614/Muerdo%20ft%20Green%20Valley%20-%20No%20me%20quieras%20mal.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626727/Muerdo%20-%2010%20a%C3%B1os%20de%20flores%2C%20viento%20y%20fuego.jpg",
+      "genre": "pop",
       "liked": false
     },
     {
       "id": 3,
-      "name": "Mahidevran - Maze of sorrow",
-      "artist": "MAHIDEVRAN ROCK BAND",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644583928/tracks-dev/Mahidevran_Rock_Band_-_Mahidevran_-_Maze_of_sorrow_ips3zs.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644583757/tracks-thumbnails-dev/Maze_of_sorrow_r1crlr.jpg",
-      "genre": "chillout",
-      "liked": false
-    },
-    {
-      "id": 4,
-      "name": "Aurora",
-      "artist": "Smoking with poets",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644583928/tracks-dev/Smoking_With_Poets_-_to__Aurora_t2qnaw.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644583757/tracks-thumbnails-dev/aurora_omys8y.jpg",
-      "genre": "indie",
-      "liked": false
-    },
-    {
-      "id": 5,
-      "name": "Sensitive",
-      "artist": "Infraction",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644583922/tracks-dev/Infraction_-_Sensitive_vsu6qr.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644583756/tracks-thumbnails-dev/Sensitive_unevif.jpg",
-      "genre": "pop",
-      "liked": false
-    },
-    {
-      "id": 6,
-      "name": "Tantalizing Youth",
-      "artist": "Social Square",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644583924/tracks-dev/Social_Square_-_Tantalizing_Youth_eykq87.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644583757/tracks-thumbnails-dev/Tantalizing_Youth_bfshzo.jpg",
+      "name": "Creo",
+      "artist": "Callejeros",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709626975/Callejeros%20-%20Creo.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627009/Callejeros%20-%20Se%C3%B1ales.jpg",
       "genre": "rock",
       "liked": false
     },
     {
-      "id": 7,
-      "name": "Igor Pumphonia - Point Of Light",
-      "artist": "Igor Pumphonia",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644584871/tracks-dev/Igor_Pumphonia_-_Igor_Pumphonia_-_Point_Of_Light_kjgbyz.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644584802/tracks-thumbnails-dev/Igor_Pumphonia_-_Point_Of_Light_urg7nn.jpg",
-      "genre": "electronic",
-      "liked": false
-    },
-    {
-      "id": 8,
-      "name": "Marsupial",
-      "artist": "Laurence Danova",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644584996/tracks-dev/Laurence_DaNova_-_Marsupial_1_bxvpkj.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644585151/tracks-thumbnails-dev/Lurence_Danova_oeew0j.jpg",
-      "genre": "indie",
-      "liked": false
-    },
-    {
-      "id": 9,
-      "name": "Chasing Tomorrow (feat. Jade Gritty)",
-      "artist": "TAB",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644585238/tracks-dev/Tab_-_Chasing_Tomorrow__feat._Jade_Gritty__leh4r1.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644585210/tracks-thumbnails-dev/TAB_fxakq3.jpg",
-      "genre": "electronic",
-      "liked": false
-    },
-    {
-      "id": 10,
-      "name": "Healin My Blues",
-      "artist": "BJ Wilbanks",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644427496/tracks-thumbnails/thumbnail-1644427496210_qqpy4a.jpg",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644523019/tracks/track-1644523017728_qb6wq4.mp3",
-      "genre": "soul",
-      "liked": false
-    },
-    {
-      "id": 11,
-      "name": "Head Over Heels (Friend Group Remix)",
-      "artist": "The Devil Music Co.",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644585554/tracks-dev/The_Devil_Music_Co._-_Head_Over_Heels__Friend_Group_Remix__buotnt.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644585551/tracks-thumbnails-dev/Head_Over_Heels_Friend_Group_Remix_c9uatt.jpg",
-      "genre": "poprock",
-      "liked": false
-    },
-    {
-      "id": 12,
-      "name": "Under Water",
-      "artist": "THE.MADPIX.PROJECT",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644586422/tracks-dev/The.madpix.project_-_Under_Water_2_gyvrkl.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644586423/tracks-thumbnails-dev/Under_Water_yoirsy.jpg",
-      "genre": "electronic",
-      "liked": false
-    },
-    {
-      "id": 13,
-      "name": "Better",
-      "artist": "A8",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644586627/tracks-dev/A8_MUSIC_PRODUCTIONS_-_Better_umwfkh.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644586622/tracks-thumbnails-dev/A8_vxgyaf.jpg",
+      "id": 4,
+      "name": "Perfecta",
+      "artist": "Rusherking feat Dread Mar I",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627133/Rusherking%20ft%20Dread%20Mar%20i%20-%20Perfecta.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627269/Rusherking%20-%20Perfecta.jpg",
       "genre": "pop",
-      "liked": false
+      "liked": true
     },
     {
-      "id": 14,
-      "name": "My Love",
-      "artist": "Modus",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644586724/tracks-dev/MODUS_-_My_Love_z7tzk1.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644586719/tracks-thumbnails-dev/My_love_wqjuiz.jpg",
-      "genre": "pop",
-      "liked": false
+      "id": 5,
+      "name": "Whiskey in the jar",
+      "artist": "Metallica",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627388/Metallica%20-%20Whiskey%20in%20the%20jar.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627480/Metallica%20-%20Garage%20inc.jpg",
+      "genre": "metal",
+      "liked": true
     },
     {
-      "id": 15,
-      "name": "Bebe go",
-      "artist": "P Steve Officiel",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644586823/tracks-dev/P_Steve_Officiel_-_Bebe_go_r0hlbl.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644586816/tracks-thumbnails-dev/bebe_go_zdfn6e.jpg",
-      "genre": "reggaeton",
-      "liked": false
-    },
-    {
-      "id": 16,
-      "name": "Reflections (feat. Mathias Hagen)",
-      "artist": "KEVIN S.",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644587062/tracks-dev/Kevin_S._-_Reflections__feat._Mathias_Hagen__lypkgw.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644587058/tracks-thumbnails-dev/Reflections_qvdzan.jpg",
-      "genre": "alternative",
-      "liked": false
-    },
-    {
-      "id": 17,
-      "name": "Un Ratito Nama (Prod: Duran The Coach)",
-      "artist": "Igor Pumphonia",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644587219/tracks-dev/Lessky_-_Un_Ratito_Nama__Prod__Duran_The_Coach__npuws5.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644587222/tracks-thumbnails-dev/Un_ratito_m2aeq0.jpg",
-      "genre": "reggaeton",
-      "liked": false
-    },
-    {
-      "id": 18,
-      "name": "Sax Is My Cardio",
-      "artist": "KUZINMUZIN",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644587961/tracks-dev/Kuzinmuzin_-_Sax_Is_My_Cardio_fqmvwb.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644587960/tracks-thumbnails-dev/Sax_kgjfn8.jpg",
+      "id": 6,
+      "name": "How deep is your love",
+      "artist": "Bee Gees",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627715/Bee%20Gees%20-%20How%20deep%20is%20your%20love..mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627767/Bee%20Gees%20-%20How%20deep%20is%20your%20love.jpg",
       "genre": "funk",
       "liked": false
     },
     {
-      "id": 19,
-      "name": "Chill Lofi Hip Hop Type Beat",
-      "artist": "PERYCREEP",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644653754/tracks-dev/PeryCreep_-_Chill_Lofi_Hip_Hop_Type_Beat_l2k8zv.mp3",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644653692/tracks-thumbnails-dev/Chill_Lofi_Hip_Hop_Type_Beat_ltpm24.jpg",
-      "genre": "groovy",
+      "id": 7,
+      "name": "Fue lo mejor del amor",
+      "artist": "Rodrigo",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627963/Rodrigo%20-%20Fue%20lo%20mejor%20del%20amor.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628005/Rodrigo%20-%20%20Fue%20lo%20mejor%20del%20amor%20Album.webp",
+      "genre": "cuarteto",
+      "liked": true
+    },
+    {
+      "id": 8,
+      "name": "Gotten",
+      "artist": "Slash ft Adam Levine",
+      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644585238/tracks-dev/Tab_-_Chasing_Tomorrow__feat._Jade_Gritty__leh4r1.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628888/Slash%20-%20Album.jpg",
+      "genre": "rock",
       "liked": false
     },
     {
-      "id": 20,
-      "name": "Monday 8am",
-      "artist": "KINEMATIC",
-      "thumbnail": "https://res.cloudinary.com/dmkdsujzh/image/upload/v1644602996/tracks-thumbnails-dev/Monday_8am_amfdta.jpg",
-      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644602494/tracks-dev/D_JAY_KOI_-_We_got_the_vibes___Feat_Fil_Straughan__uz9qw7.mp3",
-      "genre": "folk",
+      "id": 9,
+      "name": "Se Vos",
+      "artist": "Almafuerte",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709628942/Almafuerte%20-%20Se%20Vos.mp3",
+      "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644523019/tracks/track-1644523017728_qb6wq4.mp3",
+      "genre": "metal",
+      "liked": false
+    },
+    {
+      "id": 10,
+      "name": "Sweet Child o mine",
+      "artist": "Guns N Roses",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629055/Guns%20N%20Roses%20-%20Sweet%20child%20o%20mine.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629113/Guns%20N%20Roses%20-%20Apettite%20for%20destruction.webp",
+      "genre": "rock",
+      "liked": false
+    },
+    {
+      "id": 11,
+      "name": "Las pastillas del abuelo",
+      "artist": "Skalipso",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629244/Las%20pastillas%20del%20abuelo%20-%20Skalipso.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629303/Las%20pastillas%20del%20abuelo%20-%20por%20colectora.jpg",
+      "genre": "rock",
+      "liked": false
+    },
+    {
+      "id": 12,
+      "name": "Without Me",
+      "artist": "eminem",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629334/Eminem%20-%20Without%20Me.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629406/Eminem%20-%20The%20eminem%20Show.jpg",
+      "genre": "rap",
+      "liked": false
+    },
+    {
+      "id": 13,
+      "name": "Arrancarmelo",
+      "artist": "Wos",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629608/Wos%20-%20Arrancarmelo%20song.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629624/Wos%20-%20Arrancarmelo.jpg",
+      "genre": "rap",
+      "liked": true
+    },
+    {
+      "id": 14,
+      "name": "Embrujo",
+      "artist": "Los Palmeras",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629731/El%20embrujo%20-%20Los%20palmeras.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629780/Los%20palmeras%20-%20Grandes%20exitos.jpg",
+      "genre": "cuarteto",
+      "liked": false
+    },
+    {
+      "id": 15,
+      "name": "Azul",
+      "artist": "Cristian Castro",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709630779/Cristian%20Castro%20-%20Azul.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630780/Cristian%20Castro%20-%20Grandes%20Hits.jpg",
+      "genre": "pop",
+      "liked": false
+    },
+    {
+      "id": 16,
+      "name": "Ya me entere",
+      "artist": "La Konga",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709630038/La%20Konga%20-%20Ya%20me%20entere.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630011/La%20Konga%20-%20Sin%20Limites.jpg",
+      "genre": "cuarteto",
+      "liked": false
+    },
+    {
+      "id": 17,
+      "name": "Kung Fu Fighting",
+      "artist": "Carl Douglas",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709631000/Carl%20Douglas%20-%20Kung%20Fu%20Fighting.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631087/Kung%20fu%20Fighting%20over.jpg",
+      "genre": "funk",
+      "liked": false
+    },
+    {
+      "id": 18,
+      "name": "Get Down on it",
+      "artist": "Kool and the gang",
+      "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709631015/Kool%20and%20the%20Gang%20-%20Get%20down%20on%20it.mp3",
+      "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631086/Get%20Down%20on%20it%20album.jpg",
+      "genre": "funk",
       "liked": false
     }
   ],
@@ -255,312 +228,239 @@
   "albums": [
     {
       "id": 1,
-      "name": "Flyga",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cfb34a37cfed6297d8c18231",
-      "artist": "Kim Cesarion"
+      "name": "Lo que hoy quieras",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626314/Koino%20Yokan%20-%20Lo%20que%20hoy%20quieras%20-%20Album.jpg",
+      "artist": "Koino Yokan"
     },
     {
       "id": 2,
-      "name": "XXX (Bow Wow Wow)",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273256e16efc88a39e4795d5f32",
-      "artist": "C.Gambino"
+      "name": "10 años de flores, viento y fuego",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626727/Muerdo%20-%2010%20a%C3%B1os%20de%20flores%2C%20viento%20y%20fuego.jpg",
+      "artist": "Muerdo Ft Green Valley"
     },
     {
       "id": 3,
-      "name": "Stay A Little Longer",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732cf9821eb5087702a63330b5",
-      "artist": "Nicky Romero"
+      "name": "Señales",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627009/Callejeros%20-%20Se%C3%B1ales.jpg",
+      "artist": "Callejeros"
     },
     {
       "id": 4,
-      "name": "WTF",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730b7020f4bce3fc16f5370df3",
-      "artist": "Denz"
+      "name": "Perfecta",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627269/Rusherking%20-%20Perfecta.jpg",
+      "artist": "Perfecta"
     },
     {
       "id": 5,
-      "name": "Vivaldi",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a7fc8699c8a8c6dc4b90c948",
-      "artist": "Jesper Swärd"
+      "name": "Garage Inc.",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627480/Metallica%20-%20Garage%20inc.jpg",
+      "artist": "Metallica"
     },
     {
       "id": 6,
-      "name": "Velvet Pony Trax 11 part 2",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b27347d2bc41f459a0422c3dfff5",
-      "artist": "Axel Boman"
+      "name": "How deep is your love",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627767/Bee%20Gees%20-%20How%20deep%20is%20your%20love.jpg",
+      "artist": "Bee Gees"
     },
     {
       "id": 7,
-      "name": "PARTYPINGLA",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e467c6a0b070f390daa47693",
-      "artist": "Rasmus Hultgren"
+      "name": "Lo mejor del amor",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628005/Rodrigo%20-%20%20Fue%20lo%20mejor%20del%20amor%20Album.webp",
+      "artist": "Rodrigo"
     },
     {
       "id": 8,
-      "name": "Someone To Love",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e9e5fbbde2d4147260db99bf",
-      "artist": "Dimitri Vangelis & Wyman"
+      "name": "Slash",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628888/Slash%20-%20Album.jpg",
+      "artist": "Slash ft Adam Levine"
     },
     {
       "id": 9,
-      "name": "I samma bil",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b27349108981b176704992078242",
-      "artist": "Hemliga Klubben"
+      "name": "Se Vos",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628990/Almafuerte__album_twk8ng.jpg",
+      "artist": "Almafuerte"
     },
     {
       "id": 10,
-      "name": "Ofiltrerad",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d43759a300274388d5b3ac7d",
-      "artist": "Steph K"
+      "name": "Appetite for destruction",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629113/Guns%20N%20Roses%20-%20Apettite%20for%20destruction.webp",
+      "artist": "Guns N Roses"
     },
     {
       "id": 11,
-      "name": "Closer",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e04542a5b2f5c4e80b8043f9",
-      "artist": "Romeo"
+      "name": "Por colectora",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629303/Las%20pastillas%20del%20abuelo%20-%20por%20colectora.jpg",
+      "artist": "Las pastillas del abuelo"
     },
     {
       "id": 12,
-      "name": "YOUNG",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b27350414c15d3e534effd5840ab",
-      "artist": "SINAN"
+      "name": "The eminem show",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629406/Eminem%20-%20The%20eminem%20Show.jpg",
+      "artist": "eminem"
     },
     {
       "id": 13,
-      "name": "THE REAL",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273189b84e563687baf99c8d800",
-      "artist": "Chapee"
+      "name": "Arrancarmelo",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629624/Wos%20-%20Arrancarmelo.jpg",
+      "artist": "Wos"
     },
     {
       "id": 14,
-      "name": "Eternal Light Brigade",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732f4d9bfec9c13fc7979ed942",
-      "artist": "Les Big Byrd"
+      "name": "Los más grandes exitos",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629780/Los%20palmeras%20-%20Grandes%20exitos.jpg",
+      "artist": "Los Palmeras"
     },
     {
       "id": 15,
-      "name": "Tombolo (Réédition)",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273966b2b28801e75d7d293c3a9",
-      "artist": "Kalash"
+      "name": "Sin límites",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630011/La%20Konga%20-%20Sin%20Limites.jpg",
+      "artist": "La Konga"
     },
     {
       "id": 16,
-      "name": "KARIMO II",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273aa311f30a24a7002e089c379",
-      "artist": "Karim Alger"
+      "name": "Grandes Hits",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630780/Cristian%20Castro%20-%20Grandes%20Hits.jpg",
+      "artist": "Cristian Castro"
     },
     {
       "id": 17,
-      "name": "Midnight FM",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d62e4c88ec0df746317863af",
-      "artist": "Prof. Stranger"
+      "name": "Kung Fu Fighting",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631087/Kung%20fu%20Fighting%20over.jpg",
+      "artist": "Carl Douglas"
     },
     {
       "id": 18,
-      "name": "Jag såg en kvinna",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273897c8155c64e1436daf8a466",
-      "artist": "Ken Ring"
-    },
-    {
-      "id": 19,
-      "name": "Alltid varit här",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273940bcb3763667fa773d46a29",
-      "artist": "Rozh"
-    },
-    {
-      "id": 20,
-      "name": "38",
-      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a009515d20b39aa065540314",
-      "artist": "Arre"
+      "name": "Get Down on it",
+      "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631086/Get%20Down%20on%20it%20album.jpg",
+      "artist": "Kool and the gang"
     }
   ],
   "artists": [
     {
       "id": 1,
-      "name": "Kim Cesarion",
-      "genres": ["swedish pop", "swedish soul"],
+      "name": "Koino Yokan",
+      "genres": ["pop"],
       "popularity": 38,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb842fae710a21f648e26dd910"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/ZvQoGqJM3_720x0__1_vlv4f9.jpg"
     },
     {
       "id": 2,
-      "name": "C.Gambino",
-      "genres": ["swedish gangsta rap", "swedish hip hop", "swedish trap pop"],
+      "name": "Muerdo",
+      "genres": ["pop"],
       "popularity": 56,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb9fb2b5ff325f43536a2a4ae2"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636935/channels4_profile_rq2eqr.jpg"
     },
     {
       "id": 3,
-      "name": "Nicky Romero",
-      "genres": [
-        "big room",
-        "dance pop",
-        "dutch edm",
-        "edm",
-        "electro house",
-        "pop dance",
-        "pop edm",
-        "progressive electro house",
-        "progressive house",
-        "tropical house"
-      ],
+      "name": "Callejeros",
+      "genres": ["rock"],
       "popularity": 63,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb8d683372296589f7c718dea6"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/0000297913_xadry3.jpg"
     },
     {
       "id": 4,
-      "name": "Denz",
-      "genres": [
-        "swedish gangsta rap",
-        "swedish hip hop",
-        "swedish trap",
-        "swedish trap pop"
-      ],
+      "name": "Kool and the Gang",
+      "genres": ["pop"],
       "popularity": 51,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5ebda71714b11b7c451281e54ca"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636929/SIROMJHL5VCL5DO3SKLE72EGDM_uvlifa.jpg"
     },
     {
       "id": 5,
-      "name": "Jesper Swärd",
-      "genres": [],
+      "name": "Metallica",
+      "genres": ["metal"],
       "popularity": 19,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb9acc7db8348539634e585144"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636931/metallica_sx6q8w.jpg"
     },
     {
       "id": 6,
-      "name": "Axel Boman",
-      "genres": [
-        "deep house",
-        "electronica",
-        "float house",
-        "microhouse",
-        "minimal tech house",
-        "swedish electronic",
-        "swedish house"
-      ],
+      "name": "Bee Gees",
+      "genres": ["funk"],
       "popularity": 39,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb19cd7b26fa38886bd6355b3c"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/LNV0QruD_1200x0__1_sq4mcn.jpg"
     },
     {
       "id": 7,
-      "name": "Rasmus Hultgren",
-      "genres": ["swedish pop rap"],
+      "name": "Rodrigo",
+      "genres": ["cuarteto"],
       "popularity": 31,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb470a02669d59859a21676ed0"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/258_yjt8aw.webp"
     },
     {
       "id": 8,
-      "name": "Dimitri Vangelis & Wyman",
-      "genres": [
-        "edm",
-        "electro house",
-        "pop dance",
-        "pop edm",
-        "progressive electro house",
-        "progressive house"
-      ],
+      "name": "Slash",
+      "genres": ["pop"],
       "popularity": 55,
-      "photoUrl": "https://i.scdn.co/image/d3e1ce67d48fa05431bdd2b0f14ffc294960f0bf"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/ab6761610000e5eb16bbce3d5fb8a51e7cc3dce0_whd8jf.jpg"
     },
     {
       "id": 9,
-      "name": "Hemliga Klubben",
-      "genres": ["swedish pop"],
+      "name": "Almafuerte",
+      "genres": ["metal"],
       "popularity": 34,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb014c22b80be73cee9c7835b1"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636932/zAnA_MGSz_360x240__1_jpw5d4.jpg"
     },
     {
       "id": 10,
-      "name": "Steph K",
-      "genres": ["swedish trap pop"],
+      "name": "Guns N Roses",
+      "genres": ["rock"],
       "popularity": 37,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5ebf913a1de42e743a6f462dfe1"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636931/ab6761610000e5eb50defaf9fc059a1efc541f4c_xzgrbs.jpg"
     },
     {
       "id": 11,
-      "name": "Romeo",
-      "genres": ["swedish hip hop", "swedish trap pop"],
+      "name": "Dread Mar I",
+      "genres": [""],
       "popularity": 44,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb6dca4eb1f2347310b27c3000"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/03cbee332f1aff431059c1660cc7a671_g8q0gg.jpg"
     },
     {
       "id": 12,
-      "name": "SINAN",
-      "genres": ["swedish gangsta rap", "swedish hip hop", "swedish trap pop"],
+      "name": "Las pastillas del abuelo",
+      "genres": [""],
       "popularity": 44,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb5c1a2d5e3c93fe46ff18878d"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/las-pastillas-del-abuelo_aesamg.jpg"
     },
     {
       "id": 13,
-      "name": "Chapee",
-      "genres": [],
+      "name": "eminem",
+      "genres": ["rap"],
       "popularity": 22,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb8d4c9938258d04640bf9f091"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636930/en-cours-eminem-pourquoi-a-a-marche_tafil8.jpg"
     },
     {
       "id": 14,
-      "name": "Les Big Byrd",
-      "genres": [
-        "neo-kraut",
-        "stockholm indie",
-        "swedish indie rock",
-        "swedish psychedelic rock"
-      ],
+      "name": "Wos",
+      "genres": [""],
       "popularity": 33,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5ebb7ed50718dfd36111ab26f40"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709637467/WEB-wos-Eugenio-Mazzinghi-_73A4758_rlklb8.jpg"
     },
     {
       "id": 15,
-      "name": "Kalash",
-      "genres": [
-        "french hip hop",
-        "pop urbaine",
-        "rap antillais",
-        "trap antillais"
-      ],
+      "name": "Los Palmeras",
+      "genres": [""],
       "popularity": 62,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5ebbeffebd066171f03029a3c2a"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636931/palmeras-cuadrada_yqzcn6.jpg"
     },
     {
       "id": 16,
-      "name": "Karim Alger",
-      "genres": ["swedish trap pop"],
+      "name": "La Konga",
+      "genres": [""],
       "popularity": 24,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb5c33b372d2ef6275ed536450"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636930/contratar-la-konga_o0gqqd.png"
     },
     {
       "id": 17,
-      "name": "Prof. Stranger",
-      "genres": [],
+      "name": "Cristian Castro",
+      "genres": ["pop"],
       "popularity": 19,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb559babce20a71e8210990c29"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636928/unnamed_pqnotz.jpg"
     },
     {
       "id": 18,
-      "name": "Ken Ring",
+      "name": "Carl Douglas",
       "genres": ["swedish gangsta rap", "swedish hip hop", "swedish trap pop"],
       "popularity": 41,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5ebd093354b1da8c7c55c4cee9f"
-    },
-    {
-      "id": 19,
-      "name": "Arre",
-      "genres": [],
-      "popularity": 25,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5ebf6b060d446495921bd200593"
-    },
-    {
-      "id": 20,
-      "name": "Rozh",
-      "genres": [
-        "swedish drill",
-        "swedish gangsta rap",
-        "swedish hip hop",
-        "swedish trap",
-        "swedish trap pop"
-      ],
-      "popularity": 42,
-      "photoUrl": "https://i.scdn.co/image/ab6761610000e5eb31b2c3d4c8866b38310591be"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636929/ab6761610000e5ebcea061a1aee40d93206e244c_crdyyx.jpg"
     }
   ],
   "genres": [
@@ -623,6 +523,14 @@
     {
       "id": 15,
       "name": "jazz"
+    },
+    {
+      "id": 16,
+      "name": "rap"
+    },
+    {
+      "id": 17,
+      "name": "cuarteto"
     }
   ]
 }
