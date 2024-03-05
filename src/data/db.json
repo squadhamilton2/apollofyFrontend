@@ -3,184 +3,270 @@
     {
       "id": 1,
       "name": "Road trip!",
-      "isFollowed": true,
       "thumbnail": "",
       "description": "Get your mic on with this beats. You are going to sing all the way down",
-      "publicAccessible": true,
-      "primaryColor": "#fbdc00"
+      "publicAccessible": true
     },
     {
       "id": 2,
       "name": "Work",
-      "isFollowed": true,
       "thumbnail": "",
       "description": "Get productive!",
-      "publicAccessible": true,
-      "primaryColor": "#fbdc00"
+      "publicAccessible": true
     }
   ],
   "tracks": [
     {
       "id": 1,
       "name": "Lo que hoy quieras",
-      "artist": "Koino yokan",
+      "artist": {
+        "id": 1,
+        "name": "Koino Yokan"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709625897/Koino%20Yokan%20-%20Lo%20que%20hoy%20quieras.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626314/Koino%20Yokan%20-%20Lo%20que%20hoy%20quieras%20-%20Album.jpg",
-      "genre": "pop",
-      "liked": true
+      "genre": {
+        "id": 3,
+        "name": "pop"
+      }
     },
     {
       "id": 2,
       "name": "No me quieras mal",
-      "artist": "Muerdo Ft Green Valley",
+      "artist": {
+        "id": 2,
+        "name": "Muerdo"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709626614/Muerdo%20ft%20Green%20Valley%20-%20No%20me%20quieras%20mal.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626727/Muerdo%20-%2010%20a%C3%B1os%20de%20flores%2C%20viento%20y%20fuego.jpg",
-      "genre": "pop",
-      "liked": false
+      "genre": {
+        "id": 3,
+        "name": "pop"
+      }
     },
     {
       "id": 3,
       "name": "Creo",
-      "artist": "Callejeros",
+      "artist": {
+        "id": 3,
+        "name": "Callejeros"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709626975/Callejeros%20-%20Creo.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627009/Callejeros%20-%20Se%C3%B1ales.jpg",
-      "genre": "rock",
-      "liked": false
+      "genre": {
+        "id": 2,
+        "name": "rock"
+      }
     },
     {
       "id": 4,
       "name": "Perfecta",
-      "artist": "Rusherking feat Dread Mar I",
+      "artist": {
+        "id": 4,
+        "name": "Dread Mar I"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627133/Rusherking%20ft%20Dread%20Mar%20i%20-%20Perfecta.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627269/Rusherking%20-%20Perfecta.jpg",
-      "genre": "pop",
-      "liked": true
+      "genre": {
+        "id": 3,
+        "name": "pop"
+      }
     },
     {
       "id": 5,
       "name": "Whiskey in the jar",
-      "artist": "Metallica",
+      "artist": {
+        "id": 5,
+        "name": "Metallica"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627388/Metallica%20-%20Whiskey%20in%20the%20jar.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627480/Metallica%20-%20Garage%20inc.jpg",
-      "genre": "metal",
-      "liked": true
+      "genre": {
+        "id": 9,
+        "name": "metal"
+      }
     },
     {
       "id": 6,
       "name": "How deep is your love",
-      "artist": "Bee Gees",
+      "artist": {
+        "id": 6,
+        "name": "Bee Gees"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627715/Bee%20Gees%20-%20How%20deep%20is%20your%20love..mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627767/Bee%20Gees%20-%20How%20deep%20is%20your%20love.jpg",
-      "genre": "funk",
-      "liked": false
+      "genre": {
+        "id": 5,
+        "name": "funk"
+      }
     },
     {
       "id": 7,
       "name": "Fue lo mejor del amor",
-      "artist": "Rodrigo",
+      "artist": {
+        "id": 7,
+        "name": "Rodrigo"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709627963/Rodrigo%20-%20Fue%20lo%20mejor%20del%20amor.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628005/Rodrigo%20-%20%20Fue%20lo%20mejor%20del%20amor%20Album.webp",
-      "genre": "cuarteto",
-      "liked": true
+      "genre": {
+        "id": 17,
+        "name": "cuarteto"
+      }
     },
     {
       "id": 8,
       "name": "Gotten",
-      "artist": "Slash ft Adam Levine",
+      "artist": {
+        "id": 8,
+        "name": "Slash"
+      },
       "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644585238/tracks-dev/Tab_-_Chasing_Tomorrow__feat._Jade_Gritty__leh4r1.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628888/Slash%20-%20Album.jpg",
-      "genre": "rock",
-      "liked": false
+      "genre": {
+        "id": 2,
+        "name": "rock"
+      }
     },
     {
       "id": 9,
       "name": "Se Vos",
-      "artist": "Almafuerte",
+      "artist": {
+        "id": 9,
+        "name": "Almafuerte"
+      },
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709628942/Almafuerte%20-%20Se%20Vos.mp3",
       "url": "https://res.cloudinary.com/dmkdsujzh/video/upload/v1644523019/tracks/track-1644523017728_qb6wq4.mp3",
-      "genre": "metal",
-      "liked": false
+      "genre": {
+        "id": 9,
+        "name": "metal"
+      }
     },
     {
       "id": 10,
       "name": "Sweet Child o mine",
-      "artist": "Guns N Roses",
+      "artist": {
+        "id": 10,
+        "name": "Guns N Roses"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629055/Guns%20N%20Roses%20-%20Sweet%20child%20o%20mine.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629113/Guns%20N%20Roses%20-%20Apettite%20for%20destruction.webp",
-      "genre": "rock",
-      "liked": false
+      "genre": {
+        "id": 2,
+        "name": "rock"
+      }
     },
     {
       "id": 11,
-      "name": "Las pastillas del abuelo",
-      "artist": "Skalipso",
+      "name": "Skalipso",
+      "artist": {
+        "id": 11,
+        "name": "Las pastillas del abuelo"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629244/Las%20pastillas%20del%20abuelo%20-%20Skalipso.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629303/Las%20pastillas%20del%20abuelo%20-%20por%20colectora.jpg",
-      "genre": "rock",
-      "liked": false
+      "genre": {
+        "id": 2,
+        "name": "rock"
+      }
     },
     {
       "id": 12,
       "name": "Without Me",
-      "artist": "eminem",
+      "artist": {
+        "id": 12,
+        "name": "eminem"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629334/Eminem%20-%20Without%20Me.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629406/Eminem%20-%20The%20eminem%20Show.jpg",
-      "genre": "rap",
-      "liked": false
+      "genre": {
+        "id": 16,
+        "name": "rap"
+      }
     },
     {
       "id": 13,
       "name": "Arrancarmelo",
-      "artist": "Wos",
+      "artist": {
+        "id": 13,
+        "name": "Wos"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629608/Wos%20-%20Arrancarmelo%20song.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629624/Wos%20-%20Arrancarmelo.jpg",
-      "genre": "rap",
-      "liked": true
+      "genre": {
+        "id": 16,
+        "name": "rap"
+      }
     },
     {
       "id": 14,
       "name": "Embrujo",
-      "artist": "Los Palmeras",
+      "artist": {
+        "id": 14,
+        "name": "Los Palmeras"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709629731/El%20embrujo%20-%20Los%20palmeras.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629780/Los%20palmeras%20-%20Grandes%20exitos.jpg",
-      "genre": "cuarteto",
-      "liked": false
+      "genre": {
+        "id": 17,
+        "name": "cuarteto"
+      }
     },
     {
       "id": 15,
       "name": "Azul",
-      "artist": "Cristian Castro",
+      "artist": {
+        "id": 15,
+        "name": "Cristian Castro"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709630779/Cristian%20Castro%20-%20Azul.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630780/Cristian%20Castro%20-%20Grandes%20Hits.jpg",
-      "genre": "pop",
-      "liked": false
+      "genre": {
+        "id": 3,
+        "name": "pop"
+      }
     },
     {
       "id": 16,
       "name": "Ya me entere",
-      "artist": "La Konga",
+      "artist": {
+        "id": 16,
+        "name": "La Konga"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709630038/La%20Konga%20-%20Ya%20me%20entere.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630011/La%20Konga%20-%20Sin%20Limites.jpg",
-      "genre": "cuarteto",
-      "liked": false
+      "genre": {
+        "id": 17,
+        "name": "cuarteto"
+      }
     },
     {
       "id": 17,
       "name": "Kung Fu Fighting",
-      "artist": "Carl Douglas",
+      "artist": {
+        "id": 17,
+        "name": "Carl Douglas"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709631000/Carl%20Douglas%20-%20Kung%20Fu%20Fighting.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631087/Kung%20fu%20Fighting%20over.jpg",
-      "genre": "funk",
-      "liked": false
+      "genre": {
+        "id": 5,
+        "name": "funk"
+      }
     },
     {
       "id": 18,
       "name": "Get Down on it",
-      "artist": "Kool and the gang",
+      "artist": {
+        "id": 4,
+        "name": "Kool and the Gang"
+      },
       "url": "https://res.cloudinary.com/dvswalsl6/video/upload/v1709631015/Kool%20and%20the%20Gang%20-%20Get%20down%20on%20it.mp3",
       "thumbnail": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631086/Get%20Down%20on%20it%20album.jpg",
-      "genre": "funk",
-      "liked": false
+      "genre": {
+        "id": 5,
+        "name": "funk"
+      }
     }
   ],
   "user": [
@@ -190,7 +276,9 @@
       "last_name": "Casanovas",
       "email": "icasanovas@example.com",
       "profilePicture": "",
-      "isLoggedin": false
+      "likedSongs": [],
+      "likedArtist": [],
+      "ownPlaylist": []
     },
     {
       "id": 2,
@@ -198,7 +286,9 @@
       "last_name": "Banos",
       "email": "cbanos@example.com",
       "profilePicture": "",
-      "isLoggedin": false
+      "likedSongs": [3, 5, 18],
+      "likedArtist": [1, 5],
+      "ownPlaylist": [1]
     },
     {
       "id": 3,
@@ -206,7 +296,9 @@
       "last_name": "Fernandez",
       "email": "tfernandez@example.com",
       "profilePicture": "",
-      "isLoggedin": false
+      "likedSongs": [],
+      "likedArtist": [],
+      "ownPlaylist": []
     },
     {
       "id": 4,
@@ -214,7 +306,9 @@
       "last_name": "Hermosin",
       "email": "rhermosin@example.com",
       "profilePicture": "",
-      "isLoggedin": false
+      "likedSongs": [],
+      "likedArtist": [],
+      "ownPlaylist": []
     },
     {
       "id": 5,
@@ -222,7 +316,10 @@
       "last_name": "Wilshaw",
       "email": "pwilshaw@example.com",
       "profilePicture": "",
-      "isLoggedin": false
+      "isLoggedin": false,
+      "likedSongs": [],
+      "likedArtist": [],
+      "ownPlaylist": []
     }
   ],
   "albums": [
@@ -230,237 +327,381 @@
       "id": 1,
       "name": "Lo que hoy quieras",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626314/Koino%20Yokan%20-%20Lo%20que%20hoy%20quieras%20-%20Album.jpg",
-      "artist": "Koino Yokan"
+      "artist": {
+        "id": 1,
+        "name": "Koino Yokan"
+      }
     },
     {
       "id": 2,
       "name": "10 años de flores, viento y fuego",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709626727/Muerdo%20-%2010%20a%C3%B1os%20de%20flores%2C%20viento%20y%20fuego.jpg",
-      "artist": "Muerdo Ft Green Valley"
+      "artist": {
+        "id": 2,
+        "name": "Muerdo"
+      }
     },
     {
       "id": 3,
       "name": "Señales",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627009/Callejeros%20-%20Se%C3%B1ales.jpg",
-      "artist": "Callejeros"
+      "artist": {
+        "id": 3,
+        "name": "Callejeros"
+      }
     },
     {
       "id": 4,
       "name": "Perfecta",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627269/Rusherking%20-%20Perfecta.jpg",
-      "artist": "Perfecta"
+      "artist": {
+        "id": 4,
+        "name": "Dread Mar I"
+      }
     },
     {
       "id": 5,
       "name": "Garage Inc.",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627480/Metallica%20-%20Garage%20inc.jpg",
-      "artist": "Metallica"
+      "artist": {
+        "id": 5,
+        "name": "Metallica"
+      }
     },
     {
       "id": 6,
       "name": "How deep is your love",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709627767/Bee%20Gees%20-%20How%20deep%20is%20your%20love.jpg",
-      "artist": "Bee Gees"
+      "artist": {
+        "id": 6,
+        "name": "Bee Gees"
+      }
     },
     {
       "id": 7,
       "name": "Lo mejor del amor",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628005/Rodrigo%20-%20%20Fue%20lo%20mejor%20del%20amor%20Album.webp",
-      "artist": "Rodrigo"
+      "artist": {
+        "id": 7,
+        "name": "Rodrigo"
+      }
     },
     {
       "id": 8,
       "name": "Slash",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628888/Slash%20-%20Album.jpg",
-      "artist": "Slash ft Adam Levine"
+      "artist": {
+        "id": 8,
+        "name": "Slash"
+      }
     },
     {
       "id": 9,
       "name": "Se Vos",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709628990/Almafuerte__album_twk8ng.jpg",
-      "artist": "Almafuerte"
+      "artist": {
+        "id": 9,
+        "name": "Almafuerte"
+      }
     },
     {
       "id": 10,
       "name": "Appetite for destruction",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629113/Guns%20N%20Roses%20-%20Apettite%20for%20destruction.webp",
-      "artist": "Guns N Roses"
+      "artist": {
+        "id": 10,
+        "name": "Guns N Roses"
+      }
     },
     {
       "id": 11,
       "name": "Por colectora",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629303/Las%20pastillas%20del%20abuelo%20-%20por%20colectora.jpg",
-      "artist": "Las pastillas del abuelo"
+      "artist": {
+        "id": 11,
+        "name": "Las pastillas del abuelo"
+      }
     },
     {
       "id": 12,
       "name": "The eminem show",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629406/Eminem%20-%20The%20eminem%20Show.jpg",
-      "artist": "eminem"
+      "artist": {
+        "id": 12,
+        "name": "eminem"
+      }
     },
     {
       "id": 13,
       "name": "Arrancarmelo",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629624/Wos%20-%20Arrancarmelo.jpg",
-      "artist": "Wos"
+      "artist": {
+        "id": 13,
+        "name": "Wos"
+      }
     },
     {
       "id": 14,
       "name": "Los más grandes exitos",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709629780/Los%20palmeras%20-%20Grandes%20exitos.jpg",
-      "artist": "Los Palmeras"
+      "artist": {
+        "id": 14,
+        "name": "Los Palmeras"
+      }
     },
     {
       "id": 15,
       "name": "Sin límites",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630011/La%20Konga%20-%20Sin%20Limites.jpg",
-      "artist": "La Konga"
+      "artist": {
+        "id": 16,
+        "name": "La Konga"
+      }
     },
     {
       "id": 16,
       "name": "Grandes Hits",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709630780/Cristian%20Castro%20-%20Grandes%20Hits.jpg",
-      "artist": "Cristian Castro"
+      "artist": {
+        "id": 15,
+        "name": "Cristian Castro"
+      }
     },
     {
       "id": 17,
       "name": "Kung Fu Fighting",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631087/Kung%20fu%20Fighting%20over.jpg",
-      "artist": "Carl Douglas"
+      "artist": {
+        "id": 17,
+        "name": "Carl Douglas"
+      }
     },
     {
       "id": 18,
       "name": "Get Down on it",
       "imageUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709631086/Get%20Down%20on%20it%20album.jpg",
-      "artist": "Kool and the gang"
+      "artist": {
+        "id": 4,
+        "name": "Kool and the Gang"
+      }
     }
   ],
   "artists": [
     {
       "id": 1,
       "name": "Koino Yokan",
-      "genres": ["pop"],
+      "genres": [
+        {
+          "id": 3,
+          "name": "pop"
+        }
+      ],
       "popularity": 38,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/ZvQoGqJM3_720x0__1_vlv4f9.jpg"
     },
     {
       "id": 2,
       "name": "Muerdo",
-      "genres": ["pop"],
+      "genres": [
+        {
+          "id": 3,
+          "name": "pop"
+        }
+      ],
       "popularity": 56,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636935/channels4_profile_rq2eqr.jpg"
     },
     {
       "id": 3,
       "name": "Callejeros",
-      "genres": ["rock"],
+      "genres": [
+        {
+          "id": 2,
+          "name": "rock"
+        }
+      ],
       "popularity": 63,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/0000297913_xadry3.jpg"
     },
     {
       "id": 4,
-      "name": "Kool and the Gang",
-      "genres": ["pop"],
+      "name": "Dread Mar I",
+      "genres": [
+        {
+          "id": 3,
+          "name": "pop"
+        }
+      ],
       "popularity": 51,
-      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636929/SIROMJHL5VCL5DO3SKLE72EGDM_uvlifa.jpg"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/03cbee332f1aff431059c1660cc7a671_g8q0gg.jpg"
     },
     {
       "id": 5,
       "name": "Metallica",
-      "genres": ["metal"],
+      "genres": [
+        {
+          "id": 9,
+          "name": "metal"
+        }
+      ],
       "popularity": 19,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636931/metallica_sx6q8w.jpg"
     },
     {
       "id": 6,
       "name": "Bee Gees",
-      "genres": ["funk"],
+      "genres": [
+        {
+          "id": 5,
+          "name": "funk"
+        }
+      ],
       "popularity": 39,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/LNV0QruD_1200x0__1_sq4mcn.jpg"
     },
     {
       "id": 7,
       "name": "Rodrigo",
-      "genres": ["cuarteto"],
+      "genres": [
+        {
+          "id": 17,
+          "name": "cuarteto"
+        }
+      ],
       "popularity": 31,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/258_yjt8aw.webp"
     },
     {
       "id": 8,
       "name": "Slash",
-      "genres": ["pop"],
+      "genres": [
+        {
+          "id": 3,
+          "name": "pop"
+        }
+      ],
       "popularity": 55,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/ab6761610000e5eb16bbce3d5fb8a51e7cc3dce0_whd8jf.jpg"
     },
     {
       "id": 9,
       "name": "Almafuerte",
-      "genres": ["metal"],
+      "genres": [
+        {
+          "id": 9,
+          "name": "metal"
+        }
+      ],
       "popularity": 34,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636932/zAnA_MGSz_360x240__1_jpw5d4.jpg"
     },
     {
       "id": 10,
       "name": "Guns N Roses",
-      "genres": ["rock"],
+      "genres": [
+        {
+          "id": 2,
+          "name": "rock"
+        }
+      ],
       "popularity": 37,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636931/ab6761610000e5eb50defaf9fc059a1efc541f4c_xzgrbs.jpg"
     },
     {
       "id": 11,
-      "name": "Dread Mar I",
-      "genres": [""],
-      "popularity": 44,
-      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636933/03cbee332f1aff431059c1660cc7a671_g8q0gg.jpg"
-    },
-    {
-      "id": 12,
       "name": "Las pastillas del abuelo",
-      "genres": [""],
+      "genres": [
+        {
+          "id": 2,
+          "name": "rock"
+        }
+      ],
       "popularity": 44,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636934/las-pastillas-del-abuelo_aesamg.jpg"
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "eminem",
-      "genres": ["rap"],
+      "genres": [
+        {
+          "id": 16,
+          "name": "rap"
+        }
+      ],
       "popularity": 22,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636930/en-cours-eminem-pourquoi-a-a-marche_tafil8.jpg"
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Wos",
-      "genres": [""],
+      "genres": [
+        {
+          "id": 16,
+          "name": "rap"
+        }
+      ],
       "popularity": 33,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709637467/WEB-wos-Eugenio-Mazzinghi-_73A4758_rlklb8.jpg"
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Los Palmeras",
-      "genres": [""],
+      "genres": [
+        {
+          "id": 17,
+          "name": "cuarteto"
+        }
+      ],
       "popularity": 62,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636931/palmeras-cuadrada_yqzcn6.jpg"
     },
     {
+      "id": 15,
+      "name": "Cristian Castro",
+      "genres": [
+        {
+          "id": 3,
+          "name": "pop"
+        }
+      ],
+      "popularity": 19,
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636928/unnamed_pqnotz.jpg"
+    },
+    {
       "id": 16,
       "name": "La Konga",
-      "genres": [""],
+      "genres": [
+        {
+          "id": 17,
+          "name": "cuarteto"
+        }
+      ],
       "popularity": 24,
       "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636930/contratar-la-konga_o0gqqd.png"
     },
     {
       "id": 17,
-      "name": "Cristian Castro",
-      "genres": ["pop"],
-      "popularity": 19,
-      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636928/unnamed_pqnotz.jpg"
+      "name": "Carl Douglas",
+      "genres": [
+        {
+          "id": 5,
+          "name": "funk"
+        }
+      ],
+      "popularity": 41,
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636929/ab6761610000e5ebcea061a1aee40d93206e244c_crdyyx.jpg"
     },
     {
       "id": 18,
-      "name": "Carl Douglas",
-      "genres": ["swedish gangsta rap", "swedish hip hop", "swedish trap pop"],
+      "name": "Kool and the Gang",
+      "genres": [
+        {
+          "id": 5,
+          "name": "funk"
+        }
+      ],
       "popularity": 41,
-      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636929/ab6761610000e5ebcea061a1aee40d93206e244c_crdyyx.jpg"
+      "photoUrl": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709636929/SIROMJHL5VCL5DO3SKLE72EGDM_uvlifa.jpg"
     }
   ],
   "genres": [
