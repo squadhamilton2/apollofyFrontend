@@ -15,18 +15,32 @@ export const AppRoutes = () => {
       <BrowserRouter>
         <Routes>
 
+          {/* HOME */}
           {
             logged
             ? <Route path="/" element={<HomeLogged />} />
             : <Route path="/" element={<HomeNotLogged/>} />
           }
+
+          {/* LOGIN */}
           {
             logged
             ? <Route path="/login" element={<Navigate to="/" replace={ true } />} />
             : <Route path="/login" element={<Login/>} />
           }
-          <Route path="/register1" element={<Register1 />} />
-          <Route path="/register2" element={<Register2 />} />
+
+          {/* REGISTER */}
+          {
+            logged
+            ? <Route path="/register1" element={<Navigate to="/" replace={ true } />} />
+            : <Route path="/register1" element={<Register1/>} />
+          }
+          {
+            logged
+            ? <Route path="/register2" element={<Navigate to="/" replace={ true } />} />
+            : <Route path="/register2" element={<Register2/>} />
+          }
+          
         
 
 
