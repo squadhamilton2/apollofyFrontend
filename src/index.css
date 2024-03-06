@@ -1,5 +1,7 @@
 @import url("App.css");
 @import url("pages/HomeNotLogged/homeNotLogged.css");
+@import url("pages/Register/register.css");
+@import url("components/Register/createAccountHeader.css");
 
 body{
   margin: 0;
