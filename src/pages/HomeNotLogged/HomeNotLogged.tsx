@@ -1,6 +1,5 @@
-
-
 export const HomeNotLogged = () => {
+
   return (
     <div className="homeNotLogged_container">
       <img className="homeNotLogged_musicAnswerImg" src="../src/assets/images/HomeNotLogged/musicAnswer.webp" alt="music is the answer" />
@@ -15,3 +14,4 @@ export const HomeNotLogged = () => {
     </div>
   )
 }
+
