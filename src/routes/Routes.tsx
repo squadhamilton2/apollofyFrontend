@@ -1,9 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "../pages/Login/Login";
 import { HomeNotLogged } from "../pages/HomeNotLogged/HomeNotLogged";
-import { Register1 } from "../pages/Register/Register1";
-import { Register2 } from "../pages/Register/Register2";
 import { HomeLogged } from "../pages/HomeLogged/HomeLogged";
+import ProfilePage from "../pages/Profile/ProfilePage";
 
 export const AppRoutes = () => {
   const logged = false;
@@ -25,7 +24,17 @@ export const AppRoutes = () => {
             <Route path="/login" element={<Login />} />
           )}
 
-          {/* REGISTER */}
+          {/* PROFILE */}
+          {logged ? (
+            <Route
+              path="/profile"
+              element={<Navigate to="/" replace={true} />}
+            />
+          ) : (
+            <Route path="/profile" element={<ProfilePage />} />
+          )}
+
+          {/* REGISTER
           {logged ? (
             <Route
               path="/register1"
@@ -41,7 +50,7 @@ export const AppRoutes = () => {
             />
           ) : (
             <Route path="/register2" element={<Register2 />} />
-          )}
+          )} */}
         </Routes>
       </BrowserRouter>
     </>
