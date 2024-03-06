@@ -275,7 +275,7 @@
       "first_name": "Ignasi",
       "last_name": "Casanovas",
       "email": "icasanovas@example.com",
-      "profilePicture": "",
+      "profilePicture": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709717357/alex-d-J93PXpBPCFI-unsplash_pa9ypj.jpg",
       "likedSongs": [],
       "likedArtist": [],
       "ownPlaylist": []
@@ -285,7 +285,7 @@
       "first_name": "Christian",
       "last_name": "Banos",
       "email": "cbanos@example.com",
-      "profilePicture": "",
+      "profilePicture": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709717357/alex-d-J93PXpBPCFI-unsplash_pa9ypj.jpg",
       "likedSongs": [3, 5, 18],
       "likedArtist": [1, 5],
       "ownPlaylist": [1]
@@ -295,7 +295,7 @@
       "first_name": "Tomas",
       "last_name": "Fernandez",
       "email": "tfernandez@example.com",
-      "profilePicture": "",
+      "profilePicture": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709717357/alex-d-J93PXpBPCFI-unsplash_pa9ypj.jpg",
       "likedSongs": [],
       "likedArtist": [],
       "ownPlaylist": []
@@ -305,7 +305,7 @@
       "first_name": "Regla",
       "last_name": "Hermosin",
       "email": "rhermosin@example.com",
-      "profilePicture": "",
+      "profilePicture": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709717357/alex-d-J93PXpBPCFI-unsplash_pa9ypj.jpg",
       "likedSongs": [],
       "likedArtist": [],
       "ownPlaylist": []
@@ -315,7 +315,7 @@
       "first_name": "Paula",
       "last_name": "Wilshaw",
       "email": "pwilshaw@example.com",
-      "profilePicture": "",
+      "profilePicture": "https://res.cloudinary.com/dvswalsl6/image/upload/v1709717357/alex-d-J93PXpBPCFI-unsplash_pa9ypj.jpg",
       "isLoggedin": false,
       "likedSongs": [],
       "likedArtist": [],
