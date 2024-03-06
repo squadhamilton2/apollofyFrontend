@@ -10,7 +10,7 @@ import { EditProfile } from "../pages/EditProfile/EditProfile"
 
 
 export const AppRoutes = () => {
-  const logged = false
+  const logged = true
   return (
     <>
       <BrowserRouter>

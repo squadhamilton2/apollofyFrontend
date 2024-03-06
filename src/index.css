@@ -3,6 +3,7 @@
 @import url("pages/Register/register.css");
 @import url("components/Register/createAccountHeader.css");
 @import url("components/PlayingBar/playingBar.css");
+@import url("components/AlbumLine/albumLine.css");
 
 *{
   box-sizing: border-box;
