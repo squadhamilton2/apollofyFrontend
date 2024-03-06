@@ -4,6 +4,7 @@
 @import url("components/Register/createAccountHeader.css");
 @import url("components/PlayingBar/playingBar.css");
 @import url("components/AlbumLine/albumLine.css");
+@import url("pages/Search/searchPage.css");
 
 *{
   box-sizing: border-box;
