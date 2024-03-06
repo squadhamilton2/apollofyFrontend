@@ -9,7 +9,7 @@ import { HomeLogged } from "../pages/HomeLogged/HomeLogged"
 
 
 export const AppRoutes = () => {
-  const logged = false
+  const logged = true
   return (
     <>
       <BrowserRouter>

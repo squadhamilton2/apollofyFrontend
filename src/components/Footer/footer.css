@@ -6,4 +6,7 @@
   border-top: 0.2rem solid white;
   font-size: 2rem;
   padding: 0.8rem;
+  width: 100%;
+  position: fixed;
+  bottom:0;
 }

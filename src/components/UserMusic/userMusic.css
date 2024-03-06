@@ -1,5 +1,9 @@
 .userMusic {
   color: white;
+  /* overflow-y: auto; */
+  margin:auto;
+  max-height: 80vh;
+  
   .user-mysongs {
     color: white;
     margin-left: 1.5rem;
