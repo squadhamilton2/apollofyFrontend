@@ -5,11 +5,12 @@ import { HomeNotLogged } from "../pages/HomeNotLogged/HomeNotLogged"
 import { Register1 } from "../pages/Register/Register1"
 import { Register2 } from "../pages/Register/Register2"
 import { HomeLogged } from "../pages/HomeLogged/HomeLogged"
+import { EditProfile } from "../pages/EditProfile/EditProfile"
 
 
 
 export const AppRoutes = () => {
-  const logged = true
+  const logged = false
   return (
     <>
       <BrowserRouter>
@@ -41,6 +42,13 @@ export const AppRoutes = () => {
             : <Route path="/register2" element={<Register2/>} />
           }
           
+          {/* EDIT PROFILE */}
+          {
+            logged
+            ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
+            : <Route path="/editprofile" element={<EditProfile/>} />
+          }
+            
         
 
 
