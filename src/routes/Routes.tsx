@@ -6,6 +6,7 @@ import { Register1 } from "../pages/Register/Register1"
 import { Register2 } from "../pages/Register/Register2"
 import { HomeLogged } from "../pages/HomeLogged/HomeLogged"
 import { EditProfile } from "../pages/EditProfile/EditProfile"
+import { SearchPage } from "../pages/Search/SearchPage"
 
 
 
@@ -47,6 +48,13 @@ export const AppRoutes = () => {
             logged
             ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
             : <Route path="/editprofile" element={<EditProfile/>} />
+          }
+            
+          {/* SEARCH PAGE */}
+          {
+            logged
+            ? <Route path="/search" element={<SearchPage />} />
+            : <Route path="/" element={<Navigate to="/" replace={ true } /> } />
           }
             
         

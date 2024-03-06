@@ -1,8 +1,8 @@
 .playingBar_container{
     display: flex;
     background-color: #53168B;
-    position: relative;
-    bottom:.5rem;
+    position: absolute;
+    bottom: 4rem;
     width: 98%;
     margin: 0 1%;
     height: 4.3rem;
