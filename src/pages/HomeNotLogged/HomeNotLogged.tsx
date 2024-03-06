@@ -1,9 +1,3 @@
-
-
 export const HomeNotLogged = () => {
-  return (
-    <div>
-
-    </div>
-  )
-}
+  return <div>hola</div>;
+};

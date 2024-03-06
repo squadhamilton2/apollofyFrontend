@@ -1,7 +1,8 @@
+import Footer from "../../components/Footer/Footer"
 
 
 export const HomeLogged = () => {
   return (
-    <div>HomeLogged</div>
+    <div><Footer /></div>
   )
 }
