@@ -1,0 +1,15 @@
+
+.albumLine_container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.albumLine_img{
+    width: 5rem;
+}
+
+.albumLine_text{
+    color: white;
+    font-weight: 500;
+}
