@@ -1,9 +1,16 @@
+.login_page {
+  background-color: #15182E;
+  height: 100vh;
+  width: 100%;
+}
+
 .login_container {
-  /* display: flex;
+  min-height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; */
-  width: 100%;
+  flex-direction: column;
+  align-content: center;
 }
 
 .login_apollofyTextLogo {

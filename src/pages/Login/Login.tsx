@@ -2,7 +2,8 @@ import "./login.css";
 
 const Login = () => {
   return (
-    <div className="login_container">
+    <div className="login_page">
+     <div className="login_container">
       {/* <img src="src\assets\images\Login\logogrande.webp" alt="Apollofy logo" /> */}
       <img
         className="login_apollofyTextLogo"
@@ -28,6 +29,7 @@ const Login = () => {
         </div>
         <button className="login_Btn">Log in</button>
       </form>
+      </div>
     </div>
   );
 };

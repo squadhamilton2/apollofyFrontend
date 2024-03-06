@@ -1,13 +1,11 @@
 import "./App.css";
-import { HomeLogged } from "./pages/HomeLogged/HomeLogged";
-import Login from "./pages/Login/Login";
+import { AppRoutes } from "./routes/Routes";
 
 function App() {
   return (
-    <div>
-      {/* <Login /> */}
-      <HomeLogged />
-    </div>
+    <>
+    <AppRoutes />
+    </>
   );
 }
 
