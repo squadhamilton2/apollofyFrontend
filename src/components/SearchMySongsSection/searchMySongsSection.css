@@ -1,0 +1,22 @@
+.searchMySongsSection {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #15182e;
+  gap: 1rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  :last-child {
+    font-size: 1.7rem;
+    margin-left: 7rem;
+  }
+  img {
+    max-width: 4.12rem;
+    max-height: 4.12rem;
+    border-radius: 100%;
+  }
+}
