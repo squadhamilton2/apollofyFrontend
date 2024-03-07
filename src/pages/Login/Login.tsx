@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./login.css";
 
 const Login = () => {
@@ -27,7 +28,7 @@ const Login = () => {
             required
           ></input>
         </div>
-        <button className="login_Btn">Log in</button>
+        <Link to="/" className="link"><button className="login_Btn">Log in</button></Link>
       </form>
       </div>
     </div>
