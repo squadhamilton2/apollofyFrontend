@@ -1,7 +1,14 @@
+.profile_settings {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+
 .edit_profile {
     color: white;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
@@ -11,19 +18,23 @@
     margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    /* width: 30%; */
     margin-bottom: 2.5rem;
+    gap: 2rem;
 }
-
 
 .name_inputForm {
     border: none;
     border-radius: 5rem;
-    padding: .6rem 1.2rem;
+    padding: 0.6rem 1.2rem;
     background-color: #CCCCCC;
     margin-bottom: 1rem; 
     width: 90%;
     margin-right: 0.66rem;
+}
+
+.name_inputForm::placeholder {
+    color: black;
 }
 
 .profile_inputForm {
@@ -40,10 +51,15 @@
 
 .date_selectors {
     display: flex;
-    justify-content: space-between;
-    gap: 3rem;
+    justify-content: space-around;
+    margin-right: 0;
+    /* gap: 3rem; */
     
 };
+
+.country_container {
+    width: 100%;
+}
 
 .country_inputForm {
     border: none;
@@ -51,8 +67,15 @@
     padding: .6rem 1.2rem;
     background-color: #CCCCCC;
     margin-bottom: 1rem; 
-    width: 90%;
+    width: 100%;
     margin-right: 0.66rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 1.5rem;
 }
 
 .save_button {
@@ -60,8 +83,17 @@
     background-color: #0EB0F6;
     color:white;
     border: none;
-    border-radius: .5rem;
+    border-radius: 5rem;
     padding: 0.3rem 2rem;
-    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.cancel_button {
+    display: block;
+    background-color: transparent;
+    color:white;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.3rem 2rem;
     font-size: 1.2rem;
 }
