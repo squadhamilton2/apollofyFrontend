@@ -1,7 +1,19 @@
 @import url("App.css");
+@import url("pages/HomeNotLogged/homeNotLogged.css");
+@import url("pages/Register/register.css");
+@import url("components/Register/createAccountHeader.css");
+@import url("components/PlayingBar/playingBar.css");
+@import url("components/AlbumLine/albumLine.css");
+@import url("pages/Search/searchPage.css");
 
-body {
+*{
+  box-sizing: border-box;
+}
+
+body{
   margin: 0;
   min-height: 98vh;
+  background-color: #14152E;
   font-family: "Montserrat", sans-serif;
 }
+

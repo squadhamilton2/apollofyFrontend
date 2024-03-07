@@ -3,6 +3,12 @@ import Login from "../pages/Login/Login";
 import { HomeNotLogged } from "../pages/HomeNotLogged/HomeNotLogged";
 import { HomeLogged } from "../pages/HomeLogged/HomeLogged";
 import ProfilePage from "../pages/Profile/ProfilePage";
+import { Register1 } from "../pages/Register/Register1";
+import { Register2 } from "../pages/Register/Register2";
+import { EditProfile } from "../pages/EditProfile/EditProfile";
+import { SearchPage } from "../pages/Search/SearchPage";
+import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
+
 
 export const AppRoutes = () => {
   const logged = false;
@@ -24,6 +30,7 @@ export const AppRoutes = () => {
             <Route path="/login" element={<Login />} />
           )}
 
+
           {/* PROFILE */}
           {logged ? (
             <Route
@@ -34,7 +41,7 @@ export const AppRoutes = () => {
             <Route path="/profile" element={<ProfilePage />} />
           )}
 
-          {/* REGISTER
+          {/* REGISTER */}
           {logged ? (
             <Route
               path="/register1"
@@ -50,7 +57,33 @@ export const AppRoutes = () => {
             />
           ) : (
             <Route path="/register2" element={<Register2 />} />
-          )} */}
+          )}
+
+          {/* EDIT PROFILE */}
+
+          {
+            logged
+            ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
+            : <Route path="/editprofile" element={<EditProfile/>} />
+          }
+            
+          {/* SEARCH PAGE */}
+          {
+            logged
+            ? <Route path="/search" element={<SearchPage />} />
+            : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
+          }
+
+          {/* MySongsSection */}
+          {logged ? (
+            <Route
+              path="/songsSection"
+              element={<Navigate to="/" replace={true} />}
+            />
+          ) : (
+            <Route path="/songsSection" element={<MySongsSection />} />
+          )}
+
         </Routes>
       </BrowserRouter>
     </>
