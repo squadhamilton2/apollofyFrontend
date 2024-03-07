@@ -1,4 +1,8 @@
+
 import { useFetchDBJSON } from "../../hooks/useFetch";
+
+import { Link } from "react-router-dom";
+
 import "./login.css";
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -75,7 +79,7 @@ const Login = () => {
             onChange={ onChange }
           ></input>
         </div>
-        <button className="login_Btn">Log in</button>
+        <Link to="/" className="link"><button className="login_Btn">Log in</button></Link>
       </form>
       </div>
     </div>

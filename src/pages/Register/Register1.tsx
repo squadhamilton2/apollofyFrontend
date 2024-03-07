@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { CreateAccountHeader } from '../../components/Register/CreateAccountHeader';
 import { useFetchDBJSON } from '../../hooks/useFetch';
 import { useState } from 'react';
@@ -49,8 +50,10 @@ export const Register1 = () => {
 
   return (
     <>
-      <CreateAccountHeader />
+
+     <Link to="/register2" className='link'><CreateAccountHeader /></Link>
       <form onSubmit={ onSubmit } className="register_form" action="">
+
 
         <label className='register_labelForm' htmlFor=""> What's your Email?</label>
         <input 
@@ -82,7 +85,7 @@ export const Register1 = () => {
           <option value="other">Other</option>
         </select>
 
-        <input type="submit" value="Next" className='register_nextBtn'/>
+        <Link to="/register2" className='link'><input type="submit" value="Next" className='register_nextBtn'/></Link>
       </form>
     </>
   )

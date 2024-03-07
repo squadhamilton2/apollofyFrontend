@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { CreateAccountHeader } from '../../components/Register/CreateAccountHeader';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -51,7 +52,7 @@ export const Register2 = () => {
 
   return (
     <>
-      <CreateAccountHeader />
+      <Link to="/register1" className='link'><CreateAccountHeader /></Link>
       <form onSubmit={ onSubmit } className="register_form" action="">
 
         <label className='register_labelForm' htmlFor=""> What's your name?</label>
@@ -96,7 +97,7 @@ export const Register2 = () => {
 
        
 
-        <input type="submit" value="Create an Account" className='register_createAccountBtn'/>
+        <Link to="/" className='link'><input type="submit" value="Create an Account" className='register_createAccountBtn'/></Link>
       </form>
     </>
   )
