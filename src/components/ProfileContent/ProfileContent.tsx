@@ -3,7 +3,7 @@ import pingu from "../../assets/images/IMG_8452_jpg.webp";
 
 export default function Profile() {
   return (
-    <div className="profile_container">
+    <main className="profile_container">
       <div className="profile_header">
         <img src={pingu} className="profileUserPic" alt="Profile picture" />
         <div className="profileUserName">
@@ -11,12 +11,12 @@ export default function Profile() {
           <small>Edit</small>
         </div>
       </div>
-      <div>
+      <div className="profile_details">
         <h3>Name</h3>
         <p>xxxx</p>
         <h3>e-mail</h3>
         <p>xxxx</p>
       </div>
-    </div>
+    </main>
   );
 }

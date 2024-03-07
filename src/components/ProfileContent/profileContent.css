@@ -1,5 +1,4 @@
 .profile_container {
-  background-color: #15182e;
   color: white;
 }
 
@@ -21,4 +20,13 @@
 
 .profileUserName {
   text-align: center;
+  padding-bottom: 1rem;
+}
+
+.profileUserName h3 {
+  margin: 0.5rem 0;
+}
+
+.profile_details {
+  margin-left: 1.5rem;
 }
