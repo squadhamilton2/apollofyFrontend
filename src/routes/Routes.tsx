@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "../pages/Login/Login";
 import { HomeNotLogged } from "../pages/HomeNotLogged/HomeNotLogged";
+import { HomeLogged } from "../pages/HomeLogged/HomeLogged";
+import ProfilePage from "../pages/Profile/ProfilePage";
 import { Register1 } from "../pages/Register/Register1";
 import { Register2 } from "../pages/Register/Register2";
-import { HomeLogged } from "../pages/HomeLogged/HomeLogged";
 import { EditProfile } from "../pages/EditProfile/EditProfile";
 import { SearchPage } from "../pages/Search/SearchPage";
 import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
+
 
 export const AppRoutes = () => {
   const logged = false;
@@ -26,6 +28,17 @@ export const AppRoutes = () => {
             <Route path="/login" element={<Navigate to="/" replace={true} />} />
           ) : (
             <Route path="/login" element={<Login />} />
+          )}
+
+
+          {/* PROFILE */}
+          {logged ? (
+            <Route
+              path="/profile"
+              element={<Navigate to="/" replace={true} />}
+            />
+          ) : (
+            <Route path="/profile" element={<ProfilePage />} />
           )}
 
           {/* REGISTER */}
@@ -60,16 +73,6 @@ export const AppRoutes = () => {
             ? <Route path="/search" element={<SearchPage />} />
             : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
           }
-            
-        
-
-
-          {/* SEARCH PAGE */}
-          {logged ? (
-            <Route path="/search" element={<SearchPage />} />
-          ) : (
-            <Route path="/" element={<Navigate to="/" replace={true} />} />
-          )}
 
           {/* MySongsSection */}
           {logged ? (
@@ -80,6 +83,7 @@ export const AppRoutes = () => {
           ) : (
             <Route path="/songsSection" element={<MySongsSection />} />
           )}
+
         </Routes>
       </BrowserRouter>
     </>
