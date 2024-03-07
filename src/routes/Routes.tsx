@@ -47,14 +47,22 @@ export const AppRoutes = () => {
           )}
 
           {/* EDIT PROFILE */}
-          {logged ? (
-            <Route
-              path="/editprofile"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/editprofile" element={<EditProfile />} />
-          )}
+
+          {
+            logged
+            ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
+            : <Route path="/editprofile" element={<EditProfile/>} />
+          }
+            
+          {/* SEARCH PAGE */}
+          {
+            logged
+            ? <Route path="/search" element={<SearchPage />} />
+            : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
+          }
+            
+        
+
 
           {/* SEARCH PAGE */}
           {logged ? (
