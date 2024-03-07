@@ -54,7 +54,7 @@ export const AppRoutes = () => {
           {
             logged
             ? <Route path="/search" element={<SearchPage />} />
-            : <Route path="/" element={<Navigate to="/" replace={ true } /> } />
+            : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
           }
             
         
