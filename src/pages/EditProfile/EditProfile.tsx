@@ -1,6 +1,7 @@
 import { SetStateAction, useState } from 'react';
 import "./editprofile.css";
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 export const EditProfile = () => {
 
@@ -78,8 +79,8 @@ export const EditProfile = () => {
         
 
         <div className="buttons">
-          <button className="cancel_button">Cancel</button>
-          <button className="save_button">Save profile</button>
+          <Link to="/profile" className="link"><button className="cancel_button">Cancel</button></Link>
+          <Link to="/profile" className="link"><button className="save_button">Save profile</button></Link>
         </div>
 
       </form>

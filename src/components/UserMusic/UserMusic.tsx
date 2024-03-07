@@ -21,7 +21,7 @@ const UserMusic = () => {
         </div>
       </div>
 
-      <h3 className="user-mysongs ">New albuns</h3>
+      <h3 className="user-mysongs ">New albums</h3>
       <div className="sonList albums">
         <div className="sonlist__info">
           <img src={gato} alt="" />

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { CreateAccountHeader } from '../../components/Register/CreateAccountHeader';
 
 
@@ -6,7 +7,7 @@ export const Register1 = () => {
   
   return (
     <>
-      <CreateAccountHeader />
+      <Link to="/" className='link'><CreateAccountHeader /></Link>
       <form className="register_form" action="">
 
         <label className='register_labelForm' htmlFor=""> What's your Email?</label>
@@ -22,7 +23,7 @@ export const Register1 = () => {
           <option value="other">Other</option>
         </select>
 
-        <input type="submit" value="Next" className='register_nextBtn'/>
+        <Link to="/register2" className='link'><input type="submit" value="Next" className='register_nextBtn'/></Link>
       </form>
     </>
   )

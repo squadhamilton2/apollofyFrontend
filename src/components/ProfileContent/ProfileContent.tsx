@@ -1,5 +1,6 @@
 import "./profileContent.css";
 import pingu from "../../assets/images/IMG_8452_jpg.webp";
+import { Link } from "react-router-dom";
 
 export default function Profile() {
   return (
@@ -8,7 +9,7 @@ export default function Profile() {
         <img src={pingu} className="profileUserPic" alt="Profile picture" />
         <div className="profileUserName">
           <h3>Username</h3>
-          <small>Edit</small>
+         <Link to="/editprofile" className="link"><small>Edit</small></Link>
         </div>
       </div>
       <div className="profile_details">
