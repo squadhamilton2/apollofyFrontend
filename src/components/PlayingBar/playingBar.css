@@ -1,0 +1,60 @@
+.playingBar_container {
+  display: flex;
+  background-color: #53168b;
+  position: absolute;
+  bottom: 4rem;
+  width: 98%;
+  margin: 0 1%;
+  height: 4.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0.6rem;
+}
+
+.playingBar_img {
+  border-radius: 0.2rem;
+}
+
+.playingBar_subContainer {
+  width: 100%;
+}
+
+.playingBar_subContainer2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.playingBar_textContainer {
+  /* display: inline-block; */
+}
+
+.playingBar_text {
+  font-size: 0.8rem;
+  margin: 0 auto;
+  color: white;
+  width: fit-content;
+}
+
+.playingBar_playBtn {
+  min-width: 3.5rem;
+  background-color: transparent;
+  border: none;
+}
+
+.playingBar_bar {
+  transform: translateY(-0.5rem);
+  width: 100%;
+  height: 2px;
+  -webkit-appearance: none; /* Para Safari */
+  -moz-apperance: none; /* Para Firefox */
+  appearance: none; /* Para otros navegadores */
+}
+
+.playingBar_bar::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Para Safari */
+  -moz-apperance: none; /* Para Firefox */
+  appearance: none; /* Para otros navegadores */
+  width: 0;
+}
