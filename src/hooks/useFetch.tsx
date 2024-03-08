@@ -1,22 +1,20 @@
-import { useState, useEffect } from 'react';
 
+import { useState, useEffect } from "react";
 
 export const useFetchDBJSON = () => {
+  const [data, setData] = useState([]);
 
-    const [data, setData] = useState([])
+  const getData = async () => {
+    const response = await fetch("src/data/db.json");
+    const dataFetch = await response.json();
 
-    const getData = async () => {
+    setData(dataFetch);
+  };
 
-        const response = await fetch('src/data/db.json')
-        const dataFetch = await response.json()
-        
-        setData(dataFetch)
-    }
+  useEffect(() => {
+    getData();
+  }, []);
 
-    useEffect(() => {
-        getData()   
-    }, [])
-    
+  return data;
+};
 
-    return data
-}
