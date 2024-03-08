@@ -1,3 +1,4 @@
+
 import { useRef } from "react";
 
 export const PlayingBar = () => {
@@ -68,3 +69,4 @@ export const PlayingBar = () => {
     </div>
   );
 };
+

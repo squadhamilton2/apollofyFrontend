@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 
 export const useFetchDBJSON = () => {
@@ -16,3 +17,4 @@ export const useFetchDBJSON = () => {
 
   return data;
 };
+
