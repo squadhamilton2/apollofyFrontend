@@ -8,5 +8,15 @@
   padding: 0.8rem;
   width: 100%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
+}
+
+.home_icon {
+  text-decoration: none;
+  color: white;
+}
+
+.home_icon:active {
+  text-decoration: none;
+  color: #0db0f6;
 }

@@ -2,6 +2,13 @@
 @import url("pages/HomeNotLogged/homeNotLogged.css");
 @import url("pages/Register/register.css");
 @import url("components/Register/createAccountHeader.css");
+@import url("components/PlayingBar/playingBar.css");
+@import url("components/AlbumLine/albumLine.css");
+@import url("pages/Search/searchPage.css");
+
+*{
+  box-sizing: border-box;
+}
 
 body{
   margin: 0;
