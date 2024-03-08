@@ -1,8 +1,18 @@
 export interface Track {
   id: number;
   name: string;
-  artist: string;
+  artist: Artist;
   url: string;
   thumbnail: string;
-  genre: {};
+  genre: Genre;
+}
+
+interface Artist {
+  id: number;
+  name: string;
+}
+
+interface Genre {
+  id: number;
+  name: string;
 }

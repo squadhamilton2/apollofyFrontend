@@ -3,5 +3,8 @@ export interface User {
   first_name: string;
   last_name: string;
   email: string;
-  profile_picture: string;
+  profilePicture: string;
+  likedSongs: number[];
+  likedArtist: number[];
+  ownPlaylist: number[];
 }
