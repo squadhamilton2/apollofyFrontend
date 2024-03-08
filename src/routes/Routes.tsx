@@ -8,83 +8,92 @@ import { Register2 } from "../pages/Register/Register2";
 import { EditProfile } from "../pages/EditProfile/EditProfile";
 import { SearchPage } from "../pages/Search/SearchPage";
 import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
-
+import { TrackContextProvider } from "../context/trackcontext";
 
 export const AppRoutes = () => {
-  const logged = false;
+  const logged = true;
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          {/* HOME */}
-          {logged ? (
-            <Route path="/" element={<HomeLogged />} />
-          ) : (
-            <Route path="/" element={<HomeNotLogged />} />
-          )}
+        <TrackContextProvider>
+          <Routes>
+            {/* HOME */}
+            {logged ? (
+              <Route path="/" element={<HomeLogged />} />
+            ) : (
+              <Route path="/" element={<HomeNotLogged />} />
+            )}
 
-          {/* LOGIN */}
-          {logged ? (
-            <Route path="/login" element={<Navigate to="/" replace={true} />} />
-          ) : (
-            <Route path="/login" element={<Login />} />
-          )}
+            {/* LOGIN */}
+            {logged ? (
+              <Route
+                path="/login"
+                element={<Navigate to="/" replace={true} />}
+              />
+            ) : (
+              <Route path="/login" element={<Login />} />
+            )}
 
+            {/* PROFILE */}
+            {logged ? (
+              <Route
+                path="/profile"
+                element={<Navigate to="/" replace={true} />}
+              />
+            ) : (
+              <Route path="/profile" element={<ProfilePage />} />
+            )}
 
-          {/* PROFILE */}
-          {logged ? (
-            <Route
-              path="/profile"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/profile" element={<ProfilePage />} />
-          )}
+            {/* REGISTER */}
+            {logged ? (
+              <Route
+                path="/register1"
+                element={<Navigate to="/" replace={true} />}
+              />
+            ) : (
+              <Route path="/register1" element={<Register1 />} />
+            )}
+            {logged ? (
+              <Route
+                path="/register2"
+                element={<Navigate to="/" replace={true} />}
+              />
+            ) : (
+              <Route path="/register2" element={<Register2 />} />
+            )}
 
-          {/* REGISTER */}
-          {logged ? (
-            <Route
-              path="/register1"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/register1" element={<Register1 />} />
-          )}
-          {logged ? (
-            <Route
-              path="/register2"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/register2" element={<Register2 />} />
-          )}
+            {/* EDIT PROFILE */}
 
-          {/* EDIT PROFILE */}
+            {logged ? (
+              <Route
+                path="/editprofile"
+                element={<Navigate to="/" replace={true} />}
+              />
+            ) : (
+              <Route path="/editprofile" element={<EditProfile />} />
+            )}
 
-          {
-            logged
-            ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
-            : <Route path="/editprofile" element={<EditProfile/>} />
-          }
-            
-          {/* SEARCH PAGE */}
-          {
-            logged
-            ? <Route path="/search" element={<SearchPage />} />
-            : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
-          }
+            {/* SEARCH PAGE */}
+            {logged ? (
+              <Route path="/search" element={<SearchPage />} />
+            ) : (
+              <Route
+                path="/search"
+                element={<Navigate to="/" replace={true} />}
+              />
+            )}
 
-          {/* MySongsSection */}
-          {logged ? (
-            <Route
-              path="/songsSection"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/songsSection" element={<MySongsSection />} />
-          )}
-
-        </Routes>
+            {/* MySongsSection */}
+            {logged ? (
+              <Route
+                path="/songsSection"
+                element={<Navigate to="/" replace={true} />}
+              />
+            ) : (
+              <Route path="/songsSection" element={<MySongsSection />} />
+            )}
+          </Routes>
+        </TrackContextProvider>
       </BrowserRouter>
     </>
   );
