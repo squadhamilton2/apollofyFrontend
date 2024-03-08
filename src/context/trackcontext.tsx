@@ -4,7 +4,7 @@ import { useState, createContext, useContext, ReactNode } from "react";
 interface TrackContextType {
   trackPlaying: boolean;
   setTrackPlaying: Function;
-  selectedTrack: Track;
+  selectedTrack: Track[];
   setSelectedTrack: Function;
 }
 
@@ -16,12 +16,17 @@ const TrackContext = createContext({} as TrackContextType);
 
 export function TrackContextProvider(props: Props) {
   const [trackPlaying, setTrackPlaying] = useState(false);
-  const [selectedTrack, setSelectedTrack] = useState({} as Track);
+  const [selectedTrack, setSelectedTrack] = useState<Track[]>([]);
+
+  const value = {
+    trackPlaying,
+    setTrackPlaying,
+    selectedTrack,
+    setSelectedTrack,
+  };
 
   return (
-    <TrackContext.Provider
-      value={{ trackPlaying, setTrackPlaying, selectedTrack, setSelectedTrack }}
-    >
+    <TrackContext.Provider value={value}>
       {props.children}
     </TrackContext.Provider>
   );

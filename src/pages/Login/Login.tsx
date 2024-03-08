@@ -94,4 +94,40 @@ const Login = () => {
   );
 };
 
+// const Login = () => {
+//   const [form, setForm] = useState({ email: "", password: "" });
+
+//   const navigate = useNavigate();
+
+//   const { user }: { user: User[] } = useFetchDBJSON();
+
+//   const onChange = (e: Event) => {
+//     setForm({
+//       ...form,
+//       [e.target?.name]: e.target?.value,
+//     });
+//   };
+
+//   const onSubmit = (e: Event) => {
+//     e.preventDefault();
+//     let validation = true;
+//     if (!form.email.split("").includes("@")) alert("email invalido");
+
+//     if (form.password.length < 6)
+//       alert("password must be at least 6 characters");
+
+//     user.map((eachUser) => {
+//       if (eachUser.email === form.email && eachUser.password === form.password)
+//         validation = true;
+//     });
+
+//     if (validation) {
+//       alert("Bienvenido");
+//       // cambiar el estado del contexto login a true
+//       navigate("/");
+//     } else {
+//       alert("user and/or password incorrect");
+//     }
+//   };
+
 export default Login;
