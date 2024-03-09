@@ -1,4 +1,5 @@
-import "../UserMusic/userMusic.css";
+// import "../UserMusic/userMusic.css";
+import "./trackcard.css"
 
 type Artist = {
   id: number;
@@ -15,12 +16,16 @@ type Props = {
 
 export default function TrackCard(props: Props) {
   return (
+  
     <div className="sonList">
       <div className="sonlist__info">
-        <img src={props.thumbnail} alt="" />
-        <h5>{props.name}</h5>
-        <p>{props.artist.name}</p>
+        <div className="text">
+          <img src={props.thumbnail} alt="" />
+          <h5>{props.name}</h5>
+          {/* <p>{props.artist.name}</p> */}
+        </div>
       </div>
     </div>
+
   );
 }
