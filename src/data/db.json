@@ -272,6 +272,7 @@
   "user": [
     {
       "id": 1,
+      "username": "icplana",
       "first_name": "Ignasi",
       "last_name": "Casanovas",
       "email": "icasanovas@example.com",
@@ -283,6 +284,7 @@
     },
     {
       "id": 2,
+      "username": "cbanosp",
       "first_name": "Christian",
       "last_name": "Banos",
       "email": "cbanos@example.com",
@@ -294,6 +296,7 @@
     },
     {
       "id": 3,
+      "username": "tomilulu",
       "first_name": "Tomas",
       "last_name": "Fernandez",
       "email": "tfernandez@example.com",
@@ -305,6 +308,7 @@
     },
     {
       "id": 4,
+      "username": "rhermosinr",
       "first_name": "Regla",
       "last_name": "Hermosin",
       "email": "rhermosin@example.com",
@@ -316,6 +320,7 @@
     },
     {
       "id": 5,
+      "username": "Earnen",
       "first_name": "Paula",
       "last_name": "Wilshaw",
       "email": "pwilshaw@example.com",
