@@ -1,12 +1,9 @@
 import "./userMusic.css";
-import gato from "../../assets/images/alex-d-J93PXpBPCFI-unsplash_pa9ypj.webp";
 import { useEffect } from "react";
 import { useTrackContext } from "../../context/trackcontext";
 import TrackCard from "../TrackCard/TrackCard";
 import { Track } from "../../interfaces/track";
-import { Link } from "react-router-dom";
 
-type Props = {};
 
 const UserMusic = () => {
   const listOfMusic = useTrackContext();
@@ -28,7 +25,7 @@ const UserMusic = () => {
     const getMusicResponse = async () => {
       try {
         const musicResponse = await getMusic();
-        console.log("Music Response:", musicResponse);
+        
         listOfMusic.setSelectedTrack(musicResponse);
       } catch (error) {
         console.log("Error setting selected track:", error);

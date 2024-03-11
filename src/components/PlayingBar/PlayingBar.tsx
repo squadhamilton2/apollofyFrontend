@@ -11,7 +11,6 @@ export const PlayingBar = () => {
   const { selectedTrack, currentTrack } = useTrackContext();
   
 
-  console.log(selectedTrack)
  
   const setBarLogic = () => {
     barPlayer.current?.setAttribute(
@@ -39,9 +38,9 @@ export const PlayingBar = () => {
       playPauseIcon.current.src = "src/assets/images/playingBar/play.svg";
     }
   };
-
+  const condition = false
   return (
-      // <Link to="/player">
+      
     <div onLoad={setBarLogic} className="playingBar_container">
         <img
           className="playingBar_img"
@@ -53,7 +52,7 @@ export const PlayingBar = () => {
           className="playingBar_player"
           src={selectedTrack[currentTrack-1].url}
           ref={audioPlayer}
-        ></audio>
+        ></audio>                
         <div className="playingBar_subContainer">
           <div className="playingBar_subContainer2">
             <div className="playingBar_textContainer">
@@ -79,7 +78,7 @@ export const PlayingBar = () => {
           />
         </div>
     </div>
-      // </Link>
+     
   );
 };
 

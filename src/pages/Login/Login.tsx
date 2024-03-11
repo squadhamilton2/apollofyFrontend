@@ -5,10 +5,12 @@ import { User } from "../../interfaces/user";
 
 import { useAuthDispatch } from "../../context/authcontext";
 import { useFetchDBJSON } from "../../hooks/useFetch";
+import { useUserContext } from "../../context/usercontext";
 
 const Login = () => {
   
   const dispatch = useAuthDispatch()
+  const userContext = useUserContext()
   
  
   const [ form, setForm ] = useState({ email: "", password: "" });
@@ -41,9 +43,12 @@ const Login = () => {
       alert("password must be at least 6 characters");
 
       
-    user?.map((eachUser) => {
-      if (eachUser.email === form.email && eachUser.password === form.password)
+    user?.map((eachUser):void => {
+      if (eachUser.email === form.email && eachUser.password === form.password){
         validation = true;
+        userContext.setUser( eachUser )
+        localStorage.setItem('user', JSON.stringify( eachUser ))
+      }
     });
 
     if (validation) {
