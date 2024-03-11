@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import { User } from "../../interfaces/user";
 
-import { useAuthDispatch, useAuthState } from "../../context/authcontext";
+import { useAuthDispatch } from "../../context/authcontext";
 import { useFetchDBJSON } from "../../hooks/useFetch";
 
 const Login = () => {
@@ -32,6 +32,7 @@ const Login = () => {
   };
 
   const onSubmit = (e) => {
+    
     e.preventDefault();
     let validation = false;
     if (!form.email.split("").includes("@")) alert("email invalido");
@@ -72,12 +73,7 @@ const Login = () => {
               required
               name="email"
               value={form.email}
-              onChange={(e) => {
-                setForm({
-                  ...form,
-                  email: e.target?.value,
-                });
-              }}
+              onChange={onChange}
             ></input>
           </div>
           <div className="inputUser_container">
