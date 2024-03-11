@@ -14,11 +14,11 @@ export function MainPlayer({}: Props) {
   return (
     <div className="player-page">
       <div className="track-container">
-        <img className="track-img" src={selectedTrack.thumbnail} alt="" />
+        <img className="track-img" src={selectedTrack[0].thumbnail} alt="" />
       </div>
       <div className="track-info">
-        <h2 className="track-title">{selectedTrack.name}</h2>
-        <p className="track-artist">{selectedTrack.artist}</p>
+        <h2 className="track-title">{selectedTrack[0].name}</h2>
+        <p className="track-artist">{selectedTrack[0].artist.name}</p>
       </div>
       <div className="player-container">
         <button onClick={PlayBtnClicked}>
