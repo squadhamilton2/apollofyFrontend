@@ -9,9 +9,8 @@ import { EditProfile } from "../pages/EditProfile/EditProfile";
 import { SearchPage } from "../pages/Search/SearchPage";
 import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
 
-
 export const AppRoutes = () => {
-  const logged = false;
+  const logged = true;
   return (
     <>
       <BrowserRouter>
@@ -29,7 +28,6 @@ export const AppRoutes = () => {
           ) : (
             <Route path="/login" element={<Login />} />
           )}
-
 
           {/* PROFILE */}
           {logged ? (
@@ -61,18 +59,24 @@ export const AppRoutes = () => {
 
           {/* EDIT PROFILE */}
 
-          {
-            logged
-            ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
-            : <Route path="/editprofile" element={<EditProfile/>} />
-          }
-            
+          {logged ? (
+            <Route
+              path="/editprofile"
+              element={<Navigate to="/" replace={true} />}
+            />
+          ) : (
+            <Route path="/editprofile" element={<EditProfile />} />
+          )}
+
           {/* SEARCH PAGE */}
-          {
-            logged
-            ? <Route path="/search" element={<SearchPage />} />
-            : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
-          }
+          {logged ? (
+            <Route path="/search" element={<SearchPage />} />
+          ) : (
+            <Route
+              path="/search"
+              element={<Navigate to="/" replace={true} />}
+            />
+          )}
 
           {/* MySongsSection */}
           {logged ? (
@@ -83,7 +87,6 @@ export const AppRoutes = () => {
           ) : (
             <Route path="/songsSection" element={<MySongsSection />} />
           )}
-
         </Routes>
       </BrowserRouter>
     </>
