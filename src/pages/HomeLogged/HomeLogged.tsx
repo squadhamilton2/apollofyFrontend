@@ -4,13 +4,12 @@ import UserMusic from "../../components/UserMusic/UserMusic";
 import "./homelogged.css";
 import { PlayingBar } from "../../components/PlayingBar/PlayingBar";
 
-
 export const HomeLogged = () => {
   return (
     <>
       <Welcome />
       <UserMusic />
-      <PlayingBar/>
+      <PlayingBar />
       <Footer />
     </>
   );

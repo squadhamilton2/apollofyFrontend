@@ -39,53 +39,20 @@ const UserMusic = () => {
 
       <div className="sonList">
         <div className="sonlist__info">
-        {Array.isArray(listOfMusic.selectedTrack) ? (
-        listOfMusic.selectedTrack.map((track: Track, index: number) => (
-        <TrackCard
-            key={index}
-            id={track.id}
-            name={track.name}
-            artist={track.artist}
-            url={track.url}
-            thumbnail={track.thumbnail}
-          />
-        ))
-      ) : (
-        <p>No tracks available</p>
-      )
-      }
-      </div>
-    </div>
-      
-      <hr />
-      <h3 className="user-mysongs ">New albums</h3>
-      <div className="sonList albums">
-        <div className="sonlist__info">
-          <img src={gato} alt="" />
-          <p>Album</p>
-        </div>
-        <div className="sonlist__info">
-          <img src={gato} alt="" />
-          <p>Album</p>
-        </div>
-        <div className="sonlist__info">
-          <img src={gato} alt="" />
-          <p>Album</p>
-        </div>
-      </div>
-      <h3 className="user-mysongs ">Tendencies</h3>
-      <div className="sonList tendencies">
-        <div className="sonlist__info">
-          <img src={gato} alt="" />
-          <p>Album</p>
-        </div>
-        <div className="sonlist__info">
-          <img src={gato} alt="" />
-          <p>Album</p>
-        </div>
-        <div className="sonlist__info">
-          <img src={gato} alt="" />
-          <p>Album</p>
+          {Array.isArray(listOfMusic.selectedTrack) ? (
+            listOfMusic.selectedTrack.map((track: Track, index: number) => (
+              <TrackCard
+                key={index}
+                id={track.id}
+                name={track.name}
+                artist={track.artist}
+                url={track.url}
+                thumbnail={track.thumbnail}
+              />
+            ))
+          ) : (
+            <p>No tracks available</p>
+          )}
         </div>
       </div>
     </div>
@@ -93,9 +60,6 @@ const UserMusic = () => {
 };
 
 export default UserMusic;
-
-
-
 
 // UserMusic.js
 
