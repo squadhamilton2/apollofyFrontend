@@ -1,5 +1,5 @@
 // import "../UserMusic/userMusic.css";
-import "./trackcard.css"
+import "./trackcard.css";
 
 type Artist = {
   id: number;
@@ -16,7 +16,6 @@ type Props = {
 
 export default function TrackCard(props: Props) {
   return (
-  
     <div className="sonList">
       <div className="sonlist__info">
         <div className="text">
@@ -26,6 +25,5 @@ export default function TrackCard(props: Props) {
         </div>
       </div>
     </div>
-
   );
 }

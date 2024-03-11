@@ -1,16 +1,12 @@
 .userMusic {
   color: white;
-  margin:auto;
   max-height: 80vh;
-  width: 290vh;
-  overflow: scroll;
-  
-  
+  max-width: 100vh;
+
   .user-mysongs {
     color: white;
     margin-left: 1.5rem;
     font-size: 1.3rem;
-    
   }
   .sonList {
     display: flex;
@@ -18,14 +14,13 @@
     gap: 1rem;
     padding: 0.5rem;
     margin-left: 0.5rem;
-  
 
     .sonlist__info {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      
 
       img {
         width: 5rem;
@@ -34,9 +29,3 @@
     }
   }
 }
-
-
-
-
-
- 
