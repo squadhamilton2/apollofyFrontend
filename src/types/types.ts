@@ -8,3 +8,7 @@ export interface User {
     likedArtist: [],
     ownPlaylist: []
   }
+
+
+
+  

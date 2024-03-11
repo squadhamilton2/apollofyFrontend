@@ -13,7 +13,7 @@ const UserMusic = () => {
 
   const getMusic = async () => {
     try {
-      const request = await fetch("src/data/db.json");
+      const request = await fetch("http://localhost:3000/tracks");
       const JSONrequest = await request.json();
       return JSONrequest;
     } catch (error) {
@@ -22,12 +22,14 @@ const UserMusic = () => {
     }
   };
 
+  // const handleChangeSong
+
   useEffect(() => {
     const getMusicResponse = async () => {
       try {
         const musicResponse = await getMusic();
         console.log("Music Response:", musicResponse);
-        listOfMusic.setSelectedTrack(musicResponse.tracks);
+        listOfMusic.setSelectedTrack(musicResponse);
       } catch (error) {
         console.log("Error setting selected track:", error);
       }
@@ -42,20 +44,14 @@ const UserMusic = () => {
         <div className="sonlist__info">
           {Array.isArray(listOfMusic.selectedTrack) ? (
             listOfMusic.selectedTrack.map((track: Track, index: number) => (
-              <Link
-                style={{ textDecoration: "none" }}
-                to={`/${track.id}`}
+              <TrackCard
                 key={index}
-              >
-                <TrackCard
-                  key={index}
-                  id={track.id}
-                  name={track.name}
-                  artist={track.artist}
-                  url={track.url}
-                  thumbnail={track.thumbnail}
-                />
-              </Link>
+                id={track.id}
+                name={track.name}
+                artist={track.artist}
+                url={track.url}
+                thumbnail={track.thumbnail}
+              />
             ))
           ) : (
             <p>No tracks available</p>
