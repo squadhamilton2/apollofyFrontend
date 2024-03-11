@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useTrackContext } from "../../context/trackcontext";
 import TrackCard from "../TrackCard/TrackCard";
 import { Track } from "../../interfaces/track";
+import { Link } from "react-router-dom";
 
 type Props = {};
 
@@ -41,14 +42,20 @@ const UserMusic = () => {
         <div className="sonlist__info">
           {Array.isArray(listOfMusic.selectedTrack) ? (
             listOfMusic.selectedTrack.map((track: Track, index: number) => (
-              <TrackCard
+              <Link
+                style={{ textDecoration: "none" }}
+                to={`/${track.id}`}
                 key={index}
-                id={track.id}
-                name={track.name}
-                artist={track.artist}
-                url={track.url}
-                thumbnail={track.thumbnail}
-              />
+              >
+                <TrackCard
+                  key={index}
+                  id={track.id}
+                  name={track.name}
+                  artist={track.artist}
+                  url={track.url}
+                  thumbnail={track.thumbnail}
+                />
+              </Link>
             ))
           ) : (
             <p>No tracks available</p>
