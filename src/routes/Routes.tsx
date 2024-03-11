@@ -10,13 +10,15 @@ import { SearchPage } from "../pages/Search/SearchPage";
 import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
 import ProtectedRoute from "./ProtectedRoute";
 import Player from "../pages/Player/Player";
+import Page404 from "../pages/Page404/Page404";
 
 export const AppRoutes = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomeNotLogged />} />
-        <Route path="/player" element={<Player />} />
+        {/* <Route path="/player" element={<Player />} /> */}
+        <Route path="/page404" element={<Page404 />} />
         <Route path="/register1" element={<Register1 />} />
         <Route path="/register2" element={<Register2 />} />
         <Route path="/login" element={<Login />} />
@@ -37,7 +39,7 @@ export const AppRoutes = () => {
           path="/mysongs"
           element={<ProtectedRoute component={MySongsSection} />}
         />
-        {/* <Route path="/player" element={<ProtectedRoute component={Player} />} /> */}
+        <Route path="/player" element={<ProtectedRoute component={Player} />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
