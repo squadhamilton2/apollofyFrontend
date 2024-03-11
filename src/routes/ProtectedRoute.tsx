@@ -7,7 +7,7 @@ const ProtectedRoute = ({
   component: React.ElementType;
 }) => {
   const { isAuthenticated } = useAuthState();
-  return isAuthenticated ? <Component /> : <Navigate to="/" />;
+  return isAuthenticated ? <Component /> : <Navigate to="/start" />;
 };
 
 export default ProtectedRoute;

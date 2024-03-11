@@ -15,8 +15,8 @@ export const AppRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomeNotLogged />} />
-        <Route path="/player" element={<Player />} />
+        <Route path="/start" element={<HomeNotLogged />} />
+        {/* <Route path="/player" element={<Player />} /> */}
         <Route path="/register1" element={<Register1 />} />
         <Route path="/register2" element={<Register2 />} />
         <Route path="/login" element={<Login />} />
@@ -37,7 +37,7 @@ export const AppRoutes = () => {
           path="/mysongs"
           element={<ProtectedRoute component={MySongsSection} />}
         />
-        {/* <Route path="/player" element={<ProtectedRoute component={Player} />} /> */}
+        <Route path="/player" element={<ProtectedRoute component={Player} />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
