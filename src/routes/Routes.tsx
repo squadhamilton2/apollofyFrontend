@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "../pages/Login/Login";
 import { HomeNotLogged } from "../pages/HomeNotLogged/HomeNotLogged";
 import { HomeLogged } from "../pages/HomeLogged/HomeLogged";
@@ -8,84 +8,38 @@ import { Register2 } from "../pages/Register/Register2";
 import { EditProfile } from "../pages/EditProfile/EditProfile";
 import { SearchPage } from "../pages/Search/SearchPage";
 import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
-
+import ProtectedRoute from "./ProtectedRoute";
+// import Player from "../pages/Player/Player";
 
 export const AppRoutes = () => {
-  const logged = false;
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          {/* HOME */}
-          {logged ? (
-            <Route path="/" element={<HomeLogged />} />
-          ) : (
-            <Route path="/" element={<HomeNotLogged />} />
-          )}
-
-          {/* LOGIN */}
-          {logged ? (
-            <Route path="/login" element={<Navigate to="/" replace={true} />} />
-          ) : (
-            <Route path="/login" element={<Login />} />
-          )}
-
-
-          {/* PROFILE */}
-          {logged ? (
-            <Route
-              path="/profile"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/profile" element={<ProfilePage />} />
-          )}
-
-          {/* REGISTER */}
-          {logged ? (
-            <Route
-              path="/register1"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/register1" element={<Register1 />} />
-          )}
-          {logged ? (
-            <Route
-              path="/register2"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/register2" element={<Register2 />} />
-          )}
-
-          {/* EDIT PROFILE */}
-
-          {
-            logged
-            ? <Route path="/editprofile" element={<Navigate to="/" replace={ true } />} />
-            : <Route path="/editprofile" element={<EditProfile/>} />
-          }
-            
-          {/* SEARCH PAGE */}
-          {
-            logged
-            ? <Route path="/search" element={<SearchPage />} />
-            : <Route path="/search" element={<Navigate to="/" replace={ true } /> } />
-          }
-
-          {/* MySongsSection */}
-          {logged ? (
-            <Route
-              path="/songsSection"
-              element={<Navigate to="/" replace={true} />}
-            />
-          ) : (
-            <Route path="/songsSection" element={<MySongsSection />} />
-          )}
-
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeNotLogged />} />
+        {/* <Route path="/player" element={<Player />} /> */}
+        <Route path="/register1" element={<Register1 />} />
+        <Route path="/register2" element={<Register2 />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<ProtectedRoute component={HomeLogged} />} />
+        <Route
+          path="/profile"
+          element={<ProtectedRoute component={ProfilePage} />}
+        />
+        <Route
+          path="/editprofile"
+          element={<ProtectedRoute component={EditProfile} />}
+        />
+        <Route
+          path="/search"
+          element={<ProtectedRoute component={SearchPage} />}
+        />
+        <Route
+          path="/mysongs"
+          element={<ProtectedRoute component={MySongsSection} />}
+        />
+        {/* <Route path="/player" element={<ProtectedRoute component={Player} />} /> */}
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </>
   );
 };

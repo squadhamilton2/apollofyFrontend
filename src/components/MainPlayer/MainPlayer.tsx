@@ -14,7 +14,11 @@ export function MainPlayer({}: Props) {
   return (
     <div className="player-page">
       <div className="track-container">
-        <img className="track-img" src={selectedTrack.thumbnail} alt="" />
+        <img
+          className="track-img"
+          src={selectedTrack.thumbnail}
+          alt={selectedTrack.name}
+        />
       </div>
       <div className="track-info">
         <h2 className="track-title">{selectedTrack.name}</h2>
@@ -23,9 +27,15 @@ export function MainPlayer({}: Props) {
       <div className="player-container">
         <button onClick={PlayBtnClicked}>
           {trackPlaying ? (
-            <img src="src/assets/images/pause-circle-svgrepo-com.svg" alt="" />
+            <img
+              src="src/assets/images/pause-circle-svgrepo-com.svg"
+              alt="pause"
+            />
           ) : (
-            <img src="src/assets/images/play-circle-svgrepo-com.svg" />
+            <img
+              src="src/assets/images/play-circle-svgrepo-com.svg"
+              alt="play"
+            />
           )}
         </button>
       </div>
