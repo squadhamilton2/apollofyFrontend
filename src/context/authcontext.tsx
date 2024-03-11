@@ -4,6 +4,8 @@ interface AuthState {
   isAuthenticated: boolean;
 }
 
+
+
 type Action = { type: "LOGIN" } | { type: "LOGOUT" };
 type Dispatch = (action: Action) => void;
 
@@ -13,14 +15,19 @@ const AuthDispatchContext = createContext<Dispatch | undefined>(undefined);
 const authReducer = (state: AuthState, action: Action): AuthState => {
   switch (action.type) {
     case "LOGIN":
+      localStorage.setItem('isAuthenticated:','true')
       return { isAuthenticated: true };
+    case "LOGOUT":
+      localStorage.setItem('isAuthenticated:','false')
+      return { isAuthenticated: false };
     default:
       return state;
   }
 };
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const [state, dispatch] = useReducer(authReducer, { isAuthenticated: false });
+  const value:boolean = JSON.parse( localStorage.getItem('isAuthenticated:')) | false
+  const [state, dispatch] = useReducer(authReducer, { isAuthenticated: value });
 
   return (
     <AuthStateContext.Provider value={state}>

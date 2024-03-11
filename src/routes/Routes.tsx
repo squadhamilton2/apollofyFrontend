@@ -17,8 +17,7 @@ export const AppRoutes = () => {
     <>
       <Routes>
         <Route path="/" element={<HomeNotLogged />} />
-        {/* <Route path="/player" element={<Player />} /> */}
-        <Route path="/page404" element={<Page404 />} />
+        <Route path="/player" element={<Player />} />
         <Route path="/register1" element={<Register1 />} />
         <Route path="/register2" element={<Register2 />} />
         <Route path="/login" element={<Login />} />

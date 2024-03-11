@@ -31,3 +31,14 @@
   margin-left: 1.5rem;
 }
 
+.profileContent_logoutBtn {
+  color:white;
+  background-color: #0EB0F6;
+  border: #0EB0F6;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+}
+
