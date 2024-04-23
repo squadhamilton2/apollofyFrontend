@@ -6,7 +6,7 @@ export const useFetchDBJSON = ( endpoint = 'user' ) => {
 
   
   useEffect(() => {
-    const url = `http://localhost:3000/${endpoint}`
+    const url = `http://localhost:4000/${endpoint}`
     const getData = async () => {
       const response = await fetch( url );
       const dataFetch = await response.json();
