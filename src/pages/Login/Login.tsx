@@ -6,6 +6,7 @@ import { User } from "../../interfaces/user";
 import { useAuthDispatch } from "../../context/authcontext";
 import { useFetchDBJSON } from "../../hooks/useFetch";
 import { useUserContext } from "../../context/usercontext";
+import { getDataDBJSON } from "../../utilities/fetchFunctions";
 
 const Login = () => {
   
@@ -22,6 +23,11 @@ const Login = () => {
 
   useEffect(() => {
     setUser( userData )
+    async function getUsersApi(){
+      const data = await getDataDBJSON()
+      console.log(data)
+    }
+    getUsersApi()
   }, [userData])
   
   
