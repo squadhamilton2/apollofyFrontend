@@ -9,8 +9,12 @@ import { EditProfile } from "../pages/EditProfile/EditProfile";
 import { SearchPage } from "../pages/Search/SearchPage";
 import { MySongsSection } from "../pages/MySongsSection/MySongsSection";
 import ProtectedRoute from "./ProtectedRoute";
+<<<<<<< HEAD
 import Player from "../pages/Player/Player";
 import Page404 from "../pages/Page404/Page404";
+=======
+// import Player from "../pages/Player/Player";
+>>>>>>> 70fd9b02f6ff01de1c46d50e5fb8de78a81003a5
 
 export const AppRoutes = () => {
   return (
@@ -38,7 +42,7 @@ export const AppRoutes = () => {
           path="/mysongs"
           element={<ProtectedRoute component={MySongsSection} />}
         />
-        <Route path="/player" element={<ProtectedRoute component={Player} />} />
+        {/* <Route path="/player" element={<ProtectedRoute component={Player} />} /> */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>

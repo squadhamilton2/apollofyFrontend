@@ -1,9 +1,8 @@
 .userMusic {
   color: white;
-  /* overflow-y: auto; */
-  margin:auto;
   max-height: 80vh;
-  
+  max-width: 100vh;
+
   .user-mysongs {
     color: white;
     margin-left: 1.5rem;
@@ -18,7 +17,8 @@
 
     .sonlist__info {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
 

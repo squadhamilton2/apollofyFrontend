@@ -5,7 +5,7 @@ interface UserContextType {
   user: User;
   setUser: Function;
 }
-
+ 
 interface UserProps {
   children: ReactNode;
 }
@@ -13,8 +13,8 @@ interface UserProps {
 const UserContext = createContext({} as UserContextType);
 
 export function UserContextProvider(Props: UserProps) {
-  const userName = localStorage.getItem("user")!;
-  const [user, setUser] = useState<User>(JSON.parse(userName));
+  const userName = JSON.parse(localStorage.getItem("user")) ;
+  const [user, setUser] = useState<User>(userName);
 
   return (
     <UserContext.Provider value={{ user, setUser }}>
